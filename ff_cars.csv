@@ -1,0 +1,145 @@
+,Car,Manufacturer,Make,Model,Production_Year,Status,Car_Class
+0,1966 Chevrolet Corvette Grand Sport Sting Ray,Chevrolet (General Motors),Chevrolet,Corvette Grand Sport Sting Ray,1962-1967,Discontinued,"2-door convertible, 2-door coupe"
+1,1967 Chevrolet C/K,General Motors,Chevrolet,C-10,Discontinued,Active,Pickup truck
+2,1967 Chevrolet Camaro SS,General Motors,Chevrolet,Chevrolet Camaro SS,1967,Discontinued,"Pony car, Muscle car"
+3,1967 Chevrolet Camaro Z28,General Motors,Chevrolet,Chevrolet Camaro Z28,1967,Discontinued,Customized
+4,1967 Ford Mustang Fastback,Ford Motor Corporation,Ford Mustang,"""Fastback""",1967,In Production,Pony car
+5,1968 Dodge Charger Hellacious,Speedkore,Dodge,Charger Hellacious,1968,Active,Muscle
+6,1968 Dodge Charger R/T,Chrysler,Dodge,Charger R/T,1968-1970,Discontinued,Pony car
+7,1969 Ford Mustang Fastback,Ford,Ford Mustang,"""Fastback""",1969,In production,Classic Muscle/Pony car
+8,1969 Yenko Camaro SYC,General Motors,Yenko, Camaro,1969,Discontinued,"Pony car, Muscle car, Sports car"
+9,1970 Chevrolet Chevelle SS,ChevroletGeneral Motors,Chevrolet,1970 Chevrolet Chevelle SS 454,1970,Discontinued,Mid-size
+10,1970 Chevrolet Monte Carlo,General Motors,Chevrolet,"Monte Carlo, First generation",1970,Discontinued,"2 hardtop, Coupe"
+11,1970 Dodge Challenger R/T,Dodge,Dodge,1970 Challenger R/T,1970- present,Active,Classic Muscle/ Pony car
+12,1970 Dodge Charger R/T,Chrysler,Dodge,Dodge Charger R/T,1970,Discontinued,Pony car
+13,1970 Plymouth Barracuda,Chrysler Corporation,Plymouth,Barracuda,1964-1974,Discontinued,Pony car
+14,1971 Chevrolet Monte Carlo,General Motors,Chevrolet,Monte Carlo,1971,Discontinued,Coupe
+15,1971 Nissan Skyline GT-R KPGC10,Prince Motor Company,Nissan,Nissan Skyline GT-R (KPGC10),1971,Discontinued,2-door coupe
+16,1972 De Tomaso Pantera GTS,De Tomaso,Pantera,1971-1992,Unknown,Sports Car,2-door Coupé
+17,1972 Ford Gran Torino Sport,Ford,Ford,1972 Ford Gran Torino,Discontinued,Classic American Muscle,2 Door Muscle
+18,1973 Chevrolet Camaro RS-Z28 F-Bomb,General Motors,Chevrolet,RS Z28 F-Bomb,Discontinued,Dominic Toretto,Pursuing Brian & DomKilling Fenix
+19,1987 Buick Grand National,Buick (General Motors),Buick,Regal (Grand National),1987,Discontinued,Mid-size
+20,1992 Honda Civic Hatchback,Honda/Acura,Honda,Civic,1992,Discontinued,Hatchback
+21,1993 Freightliner FLA 86 64 T,Peterbilt,Peterbilt,FLA 86 64,Stolen and presumably abandoned,Semi Truck,White
+22,1993 Honda Civic EJ1,Honda,Civic,1.8 Spoon VTEC,Vader-Style Body kitsViS Racing Bomber GT body kits,Mashimoto ZX,4OZR093 (Dom's) 4ISX433 (Letty's) 4QMU951 (Leon's)
+23,1993 Mazda RX-7,Mazda Motor Corporation,Mazda,RX-7 FD,Discontinued,Sports car,2-door coupe
+24,1993 Mazda RX-7,Mazda,RX-7 FD,Discontinued,Sports car,2-door coupe,13B 1.3L Twin turbo 255 hp twin-rotor
+25,1993 Toyota Supra Turbo MK IV,Toyota,Toyota,Toyota Supra Turbo MK IV[1],1993[1][2][3],Discontinued,Sports car
+26,1994 Toyota Supra MK IV,Toyota,Toyota,Toyota Supra MK IV,1994[1],Discontinued,Sports Car
+27,1995 Mitsubishi Eclipse,"Diamond-Star Motors, Mitsubishi Motors Corporation",Mitsubishi,Eclipse GS[1],1995[2][3],Discontinued,Sports Compact
+28,1995 Nissan Skyline GT-R R33,Nissan Motor Company,Nissan,Nissan Skyline GT-R R33,1995,Discontinued,2-door coupe
+29,1995 Toyota Supra MK IV,Toyota,Toyota,Supra MK IV,1995[1][2],Discontinued,Sports car
+30,1995 Volkswagen Jetta,Volkswagen,VolksWagen,"Jetta (A3, Typ 1H)",1995- Present,Active,Sedan
+31,1996 Nissan Skyline GT-R R33,Nissan Motor Company,Nissan,Nissan Skyline GT-R R33,1996,Discontinued,2-door coupe
+32,1997 Mazda RX-7,Mazda Motor Corporation,Mazda,RX-7 FD,1997[1],Discontinued,Sports car
+33,1997 Nissan 240SX,Nissan Motor Company,Nissan,240SX,1995-1998,Discontinued,Sport compact
+34,1999 Nissan Maxima (A32),Nissan Motor Company,Nissan,Maxima (A32),1994-1999,Discontinued,Mid-size
+35,1999 Nissan Skyline GT-R R34,Nissan Motor Company,Nissan,Nissan Skyline GT-R R34,1999-2002,Discontinued,Sport compact/Midsize
+36,1999 Toyota Supra MK IV JDM,Toyota,Supra,1999,Discontinued,Black,Testing the mockup track for The Rio Heist
+37,2 Fast 2 Furious Cars,N/A,N/A,N/A,N/A,N/A,N/A
+38,2000 Acura NSX,Honda,Acura,Acura NSX,2000,Discontinued,Sports car
+39,2000 Honda S2000,Honda,Honda S2000,2000[1][2],Discontinued,"Sports car,Roadster",Honda F20C (originally) Nissan SR20DET
+40,2000 Honda S2000,Honda Motorworks,Honda,Honda S2000,2000[1],Discontinued,"Sports car,Roadster"
+41,2001 BMW 540i E39,BMW,540i,E39 M5,2001,Rolled over and crashed,4 Door Sedan
+42,2001 Nissan Silvia S15 Spec-S,Nissan,Nissan Silvia,Nissan Silvia S15 Spec-S,2001,Discontinued,2-door coupeSports car
+43,2002 Hummer H1,Hummer,H1,SUV,Brian O'Conner,Fast & Furious,N/A
+44,2002 Mitsubishi Lancer Evolution VII,Mitsubishi Motors Corporation,Mitsubishi,Mitsubishi Lancer Evolution VII,2002[1][2],Discontinued,Sports compact
+45,2002 Nissan Skyline GT-R R34,Nissan Motor Company,Nissan,Nissan Skyline R34 GT-R,2002,Discontinued,2-door coupe
+46,2003 Acura NSX,Honda,Acura,NSX,2003,Discontinued,Sports
+47,2003 Mitsubishi Eclipse Spyder,Mitsubishi Motors,Mitsubishi,Eclipse Spyder,2003[1],Discontinued,Sports compact
+48,2003 Mitsubishi Eclipse Spyder GTS,Mitsubishi Motors Corporation,Mitsubishi,Eclipse Spyder GTS,2003[1][2],Discontinued,Sports compact
+49,2003 Saleen S281-E Mustang,Ford,Saleen,Mustang,2003,Crushed by a Semi-Truck,Muscle
+50,2004 Aston Martin DB9,Aston Martin,DB9,2004-2016,Survived,Grand tourer (S),2+2 seat 2-door coupé2-door convertible
+51,2005 Aston Martin DB9,Aston Martin,DB9,2004-2016,Destroyed,Grand tourer (S),2+2 seat 2-door coupé2-door convertible
+52,2005 Volkswagen Touran,Volkswagen,Touran,2005,Discontinued,Van,Green Paint with Hulk Decal
+53,2006 Dodge Charger LX (PPV),Fiat Chrysler Automobiles,Dodge,Charger PPV,2006,Discontinued,Muscle
+54,2006 Mitsubishi Lancer Evolution IX,Mitsubishi,Lancer Evolution IX,"2-liter, turbocharged, DOHC 4G63 engine in stock trim; RMR air intake and exhaust systems",APR body kit and rear spoiler; APR Racing carbon-fiber side mirrors,RAYS G-Games 99B 19-by-8.5”,255/35R19 Toyo Proxes T1R
+55,2008 Ford Mustang GT Tjaarda 550R,Ford,GT Tjaarda 550R,Mustang,2008,Destroyed,Muscle
+56,2009 Nissan 370Z,Nissan,370Z (Z34),Gisele Yashar,Racing Practice for Vault heist,Survived,Fast Five
+57,2009 Nissan GT-R R35,Nissan Motor Company,Nissan,Nissan GT-R R35,2007 (film)[1]2009[2],In Production,2-door 2+2 coupé
+58,2009 Subaru Impreza WRX STi GH,Fuji Heavy Industries,Subaru,Impreza WRX STi GH,2009,Discontinued,Compact Car
+59,2010 Dodge Charger SRT-8,Dodge,Dodge,Charger SRT-8,Matte Black,Dominic TorettoBrian O'Conner,Vault Heist
+60,2010 Koenigsegg CCXR,Koenigsegg,CCXR,2010,Discontinued,Sports Car,2 door larga top
+61,2010 Nissan GT-R R35,Nissan Motor Company,Nissan,Nissan GT-R R35,2010[1],In production,2-door 2+2 coupé
+62,2011 Bugatti Veyron,Bugatti Automobiles S.A.S.,Bugatti,Veyron 16.4,2005–2011,Discontinued,Super car
+63,2011 Dodge Challenger SRT,Fiat Chrysler Automobiles,Dodge,Challenger SRT,Active,Full-size pony car,Letty Ortiz
+64,2011 Dodge Charger PPV,Dodge (Chrysler),Dodge,Charger LX,Dominic Toretto Brian O'Conner Roman Pearce Han Seoul-Oh,Million dollar quarter mile race Shunting Rio cop cars out of the way,Transformed into 2010 Dodge Charger SRT-8 (two) Survived (two)
+65,2011 Lexus LFA,Lexus,LFA,2011,Discontinued,Sports car,4.8-liter V10 72-degree bank angle
+66,2011 Nissan GT-R R35,Nissan Motor Company,Nissan,Nissan GT-R R35,2011[1],In production,2-door 2+2 coupé
+67,2011 STC Delta Didgori-2,STC Delta,STC Delta,Didgori-2,2011,Current,SUV
+68,2011 Subaru Impreza WRX STI,Subaru,Impreza WRX STI,2007-2014,Discontinued,Compact car,4-door sedan
+69,2012 Dodge Charger SRT-8,Dodge,Destroyed (Dominic Toretto's)Survived (Han Seoul-Oh's),Muscle,4 door sedan,Rear bumper reinforcement,Sparco racing seats
+70,2012 Nissan GT-R R35,Nissan Motor Company,Nissan,Nissan GT-R R35,2012[1],In production,2-door 2+2 coupé
+71,2012 Nissan GT-R R35 Bensopra,Nissan Motor Company,Nissan,Nissan GT-R R35,2012[1],In production,2-door 2+2 coupé
+72,2012 Subaru Impreza WRX STi GH,Fuji Heavy Industries,Subaru,Impreza WRX STi GH,2012[1],In Production,4-door sedan
+73,2014 Chevrolet Suburban LT,Chevrolet/GMC (General Motors),Chevrolet,Suburban (LT Trim),2007-2014,Extended Length SUV,4-door SUV
+74,2014 Dodge Charger SRT-8,"Dodge (Fiat Chrysler Automobiles, previously Chrysler)",Dodge,Charger SRT-8,2011-present,In production,Full-size
+75,2014 Maserati Ghibli,Maserati,Ghibli,2014,Destroyed,Sport,Sedan
+76,2015 Ford Mustang GT350,Ford Motor Cars,Ford,Mustang,2015,Current,Muscle
+77,2019 Jaguar XE,Jaguar Land Rover,Jaguar,XE SV Project 8,2019,Current,Sports
+78,2020 Jeep Gladiator,Fiat Chrysler Automobiles,Jeep,Gladiator,Current,SUV,Gray
+79,Acura Integra,Honda,Acura,Integra,1986-2001,Discontinued,Sports
+80,Astana Hotto,Layla Gray,Spy Racing,Active,Fast & Furious: Spy Racers,N/A,N/A
+81,BMW 323is (E36),BMW,E36,323iS,1990-2000,Discontinued,Euro-Exotic
+82,Chevrolet Camaro,"Chevrolet, General Motors",Chevrolet Camaro,"Yenko Camaro SYC,RS-Z28 F-bombSS",In production,In production,"Korpi,Brian O'Conner (2 Fast 2 Furious),Dominic Toretto (Fast & Furious)Tej Parker (Fast & Furious 6)Roman Pearce (Furious 7)"
+83,Chevrolet Monte Carlo,Chevrolet,Monte Carlo,Roman PearceSean Boswell,Demolition Derby (Roman)General driving; racing (Sean),Damaged (2 Fast 2 Furious)Destoryed (Tokyo Drift),2 Fast 2 FuriousThe Fast and the Furious: Tokyo Drift
+84,Chevrolet Monte Carlo Stock Car,Chevrolet,Monte Carlo,1995-1999,Stock Car,"90° pushrod V-8358 cubic inches (5,870 cc)",Black
+85,Chrysler Town & Country,Chrysler,Chrysler,Town & Country,2007-2016,Discontinued,Minivan
+86,Dodge Challenger,N/A,N/A,N/A,N/A,N/A,N/A
+87,Dodge Charger,Chrysler,Dodge,"Dodge Charger B-Body LX, LD","1968, 1969, 2006, 2010, 2011",In Production,Dominic Toretto
+88,Dodge Charger Daytona,Dodge (Chrysler),Dodge,Charger Daytona,1969,Discontinued,Muscle car
+89,Dodge Ram,DodgeRam Trucks,Dodge Ram,Pickup Truck,Unknown (2 Fast 2 Furious)Reyes Men(Fast Five)Luke Hobbs(The Fate of the Furious),Ramming Police Cars,2 Fast 2 FuriousFast FiveThe Fate of the Furious
+90,Dodge Stealth,Mitsubishi Motors,Chrysler (importer),Dodge Stealth[note 1],1991[1],Discontinued,Sports cargrand tourer
+91,Dodge Viper SRT-10,2003,Dodge,Viper,Discontinued,Convertible,YellowRedBlack
+92,Eagle Speedster,Eagle (recreation)Jaguar (base),Eagle,Speedster,By order only,Black,Tej Parker (owner)
+93,Fast & Furious 6 Cars,N/A,N/A,N/A,N/A,N/A,N/A
+94,Fast & Furious Cars,N/A,N/A,N/A,N/A,N/A,N/A
+95,Fast Attack Vehicle,N/A,N/A,N/A,N/A,N/A,N/A
+96,Fast Five Cars,N/A,N/A,N/A,N/A,N/A,N/A
+97,Ferrari 360 Spider,360 Spider,1999–2005,Sports Car,2-door berlinetta2-door spider,"3.6 L (3,586 cc) Tipo F131 V8","2,600 mm (102 in)"
+98,Ferrari F355 Spider,Ferrari SPA,Ferrari,F355 Spider,1995-1999,Discontinued,Semi-Retro Exotic
+99,Ferrari FXX,N/A,N/A,N/A,N/A,N/A,N/A
+100,2015 Subaru WRX STi,Fuji Heavy Industries,Subaru,WRX STI,2015,In Production,4-door sedan
+101,Flip Car,Custom-Built Sports Car,Flip Car,Owen ShawVegh,TheftEvasion,Destroyed (Shaw)Totaled (Vegh),Fast & Furious 6
+102,Ford Crown Victoria,Ford,Crown Victoria,4QSR615 (TFaTF),Sergeant Tanner Muse Brian O'Conner Dunn Markham,The Fast and the Furious 2 Fast 2 Furious,Chevrolet Caprice
+103,Ford Escort MK I,Ford Motorworks,Ford,Escort MK I RS1600,1968-1978,Discountinued,Sports/Rally car
+104,Ford F-150 SVT Lightning,Ford Motor Company,Ford,F-150 SVT Lightning,Brian O'Conner,The Racer's Edge work truck Getting to and from work Hauling parts for Brian's Toyota Supra,Survived
+105,Ford GT40,Ford,GT40,Unknown,4181 cc (255 CID) V-84737 cc (289 CID) V-86997 cc (427 CID) V-84942 cc (302 CID) V-8,9.75 - 15 (F); 12.8 - 15 (R) 325,Fast Five
+106,Ford Maverick,Ford,Maverick,Discontinued,4KBR-707,Han Seoul-Oh,Standard driving Following Reyes' men
+107,Ford Mustang,Ford,Ford Mustang,Mustang Fastback (Tokyo Drift & Fast & Furious 6),In production,Pony car,Sean Boswell (Tokyo Drift)Roman Pearce (Fast & Furious 6)Jakob Toretto
+108,Ford RS200,Ford,RS200,Unknown,Racing,Possibly Survived,Fast & Furious
+109,Furious 7 Cars,N/A,N/A,N/A,N/A,N/A,N/A
+110,Honda Civic,Honda,Honda,Honda Civic,In Production,Compact Car,Dominic Toretto Letty Ortiz Leon Vince (presumably) Jesse (presumably) Hector Danny
+111,Honda S2000,Honda,S2000,Discontinued,Johnny TranSuki,Racing (both),Active (Johnny Tran) Active (Suki)
+112,Hyperfin,Echo,Spy Racing,Active,Fast & Furious: Spy Racers,N/A,N/A
+113,Images of cars,N/A,N/A,N/A,N/A,N/A,N/A
+114,Ion Motors Thresher,Tony Toretto,Spy Racing,Active,Fast & Furious: Spy Racers,N/A,N/A
+115,Jensen Interceptor,Carrozzeria Touring,Jensen,Interceptor,1971[1],Discontinued,Luxury carGrand Tourer
+116,List of Cars in The Fast and the Furious (series),N/A,N/A,N/A,N/A,N/A,N/A
+117,Lykan HyperSport,W Motors,Lykan HyperSport,Hypercar,3.7 litre twin-turbo Flat-six,"Lightweight forged aluminium 8.5x19"" front, 12.5x20"" rear",255/35 ZR 19 front  335/30 ZR 20 rear
+118,Mazda RX-7,Mazda,1993[1][2]1997[3],Discontinued,Sports car,Dominic Toretto[2]Orange Julius[4]Han Seoul-Oh[5],Street Racing
+119,Mazda RX-8,Mazda,RX-8,Discontinued,"Renesis 1.3-liter 13B rotary with GReddy turbo kit and engine management system, Tanabe exhaust system","VeilSide D1-GT body kit, VeilSide carbon fiber GT wing, carbon fiber painted cowl hood,",Takata seat belts and Nardi steering wheel
+120,Mitsubishi Eclipse,Mitsubishi Motors,Mitsubishi,Mitsubishi EclipseEclipse Spyder,Discontinued,Sport compact,Brian O'ConnerThe GirlRoman Pearce
+121,Mitsubishi Lancer Evolution,Mitsubishi Motors,Mitsubishi,Mitsubishi Lancer Evolution,Discontinued,Sport compact,Brian O'ConnerSean Boswell
+122,Muscle cars,N/A,N/A,N/A,N/A,N/A,N/A
+123,Nissan 240SX,N/A,N/A,N/A,N/A,N/A,N/A
+124,Nissan Fairlady Z (Z33),Nissan,Fairlady Z33 (350Z),Discontinued,VQ35DE (3.5-liter DOHC 24-valve V6) with APS stainless headers and turbo exhaust; Magnaflow performance mufflers (Takashi's) VQ35DE (3.5-liter DOHC 24-valve V6) (Morimoto's and Tea-Hair's),"VeilSide Version 3 wide body kit, carbon fiber hood, rear wing; Speedway Engineering hood pins and Ganador carbon fiber mirrors (Takashi's) Top Secret wide body kit, hood, and rear wing; Speedway Engineering hood pins (Morimoto's) Top Secret body kit and GT rear wing; Top Secret carbon fiber painted hood; Speedway Engineering hood pins (Tea-Hair's)","Nitrous Oxide Systems polished bottle, Sanyou model ECD T178DV sound system; Sparco EVO L black racing seats, seats belts, and steering wheel; Safety 21 roll cage (Takashi's) Nitrous Oxide Systems polished bottle, Recaro black and glod seats; Takata MPH-340R seat belts; Sparco steering wheel (Morimoto's) Nitrous Oxide Systems blue bottle, Takata seat belts; Sparco blue steering wheel (Tea-Hair's)"
+125,Nissan GT-R,Nissan Motor Company,Nissan,GT-R (R35),In Production,Brian O'Conner,Standard driving Racing
+126,Nissan Silvia S15,Nissan,Nissan Silva,S15,1999-2002,Discontinued,Sports car
+127,Nissan Silvia S15 Spec-R,Nissan Motor Company,Nissan,Nissan Silvia S15 Spec-R,Discontinued,2-door coupeSports car,"Omiya(大宮) 300, Me(め), 81-86"
+128,Nissan Skyline GT-R,Prince Motor Company Nissan Motor Company,Nissan Skyline GT-R,1971-2002,Discontinued,"2-door coupe,Grand tourer",LeonBrian O'Conner
+129,Pickup trucks,N/A,N/A,N/A,N/A,N/A,N/A
+130,Plymouth Road Runner,Plymouth,Road Runner,1968-1980,Discontinued,Muscle car,2-door coupe
+131,Pontiac Bonneville,N/A,N/A,N/A,N/A,N/A,N/A
+132,Pontiac Fiero,Pontiac,Pontiac,Fiero,1984,Destroyed,Notchback Coupe
+133,Pontiac Trans Am,Pontiac,Pontiac,Trans Am,1967-2002,Pony CarMuscle Car,Tego Leo
+134,Porsche 996 GT3 RS,Porsche,996 GT3 RS,3.6L flat-6,Unnamed OwnerBrian O'Conner,Street racingPractice racing for compound entry,Active (assumed returned)
+135,Porsche Cayman,Porsche,Cayman S,Gisele Yashar,TravelingRacing,Survived,Fast & Furious
+136,Subaru Impreza WRX STi,Subaru,Impreza WRX STi,Brian O'ConnerDominic TorettoHan Seoul-OhLittle Nobody,General drivingBringing Arturo Braga back to the U.SDrift PracticeReversing out of an airplane/Caucasus Mountains mission to rescue RamseyPreventing Cipher's mission in Russia,Damaged (F4)Survived (F5)Damaged (F7)Survived (F8),Fast & FuriousFast FiveFurious 7The Fate of the Furious
+137,The Fast and The Furious Cars,N/A,N/A,N/A,N/A,N/A,N/A
+138,The Fate of the Furious Cars,N/A,N/A,N/A,N/A,N/A,N/A
+139,Tokyo Drift Cars,N/A,N/A,N/A,N/A,N/A,N/A
+140,Toyota Corolla,Toyota,Corolla,Takashi (Tokyo Drift) Unknown (F&F),Street RacingDrifting,The Fast and the Furious: Tokyo DriftFast & Furious,N/A
+141,Toyota Supra MK IV,Toyota,Toyota,Toyota Supra MK IVTurbo MK IV,Discontinued,Sports car,Brian O'Conner[1][2]Dominic Toretto[1]Slap Jack[3]
+142,Tuners,N/A,N/A,N/A,N/A,N/A,N/A
+143,Volkswagen Golf R32,N/A,N/A,N/A,N/A,N/A,N/A
