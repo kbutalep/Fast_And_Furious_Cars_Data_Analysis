@@ -1,0 +1,324 @@
+,Sale Date,Sale Amount,Currency unit,Sold Location,Source,Year,Make,Model
+0,2022-05-10,140000,GBP,Great Britain,collectingcars.com,1996,Nissan,Skyline (R33) GT-R
+1,2022-01-26,221500,AUD,Australia,collectingcars.com,1996,Nissan,Skyline (R33) GT-R
+2,2021-10-21,100000,GBP,Great Britain,collectingcars.com,1996,Nissan,Skyline (R33) GT-R
+3,2021-07-13,310000,USD,USA,bringatrailer.com,1996,Nissan,Skyline (R33) GT-R
+4,2021-06-22,315187,USD,USA,bringatrailer.com,1996,Nissan,Skyline (R33) GT-R
+5,2017-11-11,29000,GBP,Great Britain,silverstoneauctions.com,1996,Nissan,Skyline (R33) GT-R
+6,2017-09-06,25300,GBP,Great Britain,rmsothebys.com,1996,Nissan,Skyline (R33) GT-R
+7,2022-06-29,63500,AUD,Australia,collectingcars.com,1996,Nissan,Skyline (R33) GT-R
+8,2022-05-13,58000,USD,USA,bringatrailer.com,1995,Nissan,Skyline (R33) GT-R
+9,2022-05-01,57500,USD,USA,bringatrailer.com,1996,Nissan,Skyline (R33) GT-R
+10,2022-04-21,49995,USD,USA,carsandbids.com,1995,Nissan,Skyline (R33) GT-R
+11,2022-03-29,83500,USD,USA,bringatrailer.com,1995,Nissan,Skyline (R33) GT-R
+12,2022-01-16,129000,USD,USA,bringatrailer.com,1971,Nissan,Skyline
+13,2021-08-23,95959,USD,USA,bringatrailer.com,1971,Nissan,Skyline
+14,2019-02-04,63500,USD,USA,bringatrailer.com,1971,Nissan,Skyline
+15,2018-08-23,75900,USD,USA,mecum.com,1971,Nissan,Skyline
+16,2017-01-23,126000,USD,USA,bringatrailer.com,1971,Nissan,Skyline
+17,2022-07-15,67500,USD,USA,bringatrailer.com,1970,Dodge,Charger R/T
+18,2022-06-30,85800,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+19,2022-05-02,104000,USD,USA,gatewayclassiccars.com,1970,Dodge,Charger R/T
+20,2022-04-09,119900,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+21,2022-01-29,132000,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+22,2022-07-02,122000,USD,USA,bringatrailer.com,1994,Toyota,Supra
+23,2022-05-29,40050,GBP,Great Britain,collectingcars.com,1994,Toyota,Supra
+24,2022-05-19,140000,USD,USA,mecum.com,1994,Toyota,Supra
+25,2022-05-08,98500,USD,USA,bringatrailer.com,1994,Toyota,Supra
+26,2022-05-01,72000,CAD,Canada,bringatrailer.com,1994,Toyota,Supra
+27,2021-09-04,89600,USD,USA,worldwideauctioneers.com,1970,Dodge,Charger R/T
+28,2021-09-04,62150,USD,USA,rmsothebys.com,1970,Dodge,Charger R/T
+29,2021-07-31,82500,USD,USA,mecum.com,1970,Dodge,Charger R/T
+30,2021-06-19,72600,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+31,2021-05-22,352000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+32,2021-03-26,74800,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+33,2020-10-01,65000,USD,USA,bringatrailer.com,1970,Dodge,Charger R/T
+34,2020-04-01,117500,USD,USA,bringatrailer.com,1970,Dodge,Charger R/T
+35,2020-03-31,75000,USD,USA,hemmings.com,1970,Dodge,Charger R/T
+36,2020-01-10,88000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+37,2020-01-09,88000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+38,2019-10-26,45100,USD,USA,mecum.com,1970,Dodge,Charger R/T
+39,2019-10-12,84700,USD,USA,mecum.com,1970,Dodge,Charger R/T
+40,2019-10-05,137000,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+41,2019-10-04,47300,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+42,2019-09-06,92400,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+43,2019-03-09,72500,USD,USA,gaaclassiccars.com,1970,Dodge,Charger R/T
+44,2019-01-18,132000,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+45,2019-01-20,84700,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+46,2019-01-17,94600,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+47,2018-10-04,40700,USD,USA,mecum.com,1970,Dodge,Charger R/T
+48,2018-06-23,154000,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+49,2018-05-18,66000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+50,2018-05-18,89100,USD,USA,mecum.com,1970,Dodge,Charger R/T
+51,2018-04-13,63800,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+52,2018-01-19,143000,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+53,2018-01-13,82500,USD,USA,mecum.com,1970,Dodge,Charger R/T
+54,2018-01-13,104500,USD,USA,mecum.com,1970,Dodge,Charger R/T
+55,2018-01-11,47300,USD,USA,mecum.com,1970,Dodge,Charger R/T
+56,2018-01-06,75900,USD,USA,mecum.com,1970,Dodge,Charger R/T
+57,2017-10-07,70000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+58,2017-05-20,70000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+59,2017-05-20,90000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+60,2017-05-19,42500,USD,USA,mecum.com,1970,Dodge,Charger R/T
+61,2017-01-20,130900,USD,USA,mecum.com,1970,Dodge,Charger R/T
+62,2017-01-14,55000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+63,2017-01-14,61000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+64,2017-01-08,49000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+65,2016-06-18,85000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+66,2016-04-15,107500,USD,USA,mecum.com,1970,Dodge,Charger R/T
+67,2016-04-15,37000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+68,2016-01-21,54000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+69,2015-10-23,132000,USD,USA,worldwideauctioneers.com,1970,Dodge,Charger R/T
+70,2015-10-09,38000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+71,2015-04-24,38000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+72,2015-01-24,52000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+73,2015-01-21,44000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+74,2015-01-17,71500,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+75,2015-01-16,66000,USD,USA,goodingco.com,1970,Dodge,Charger R/T
+76,2015-01-14,48400,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+77,2015-01-14,51700,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+78,2015-01-13,220000,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+79,2014-05-17,125000,USD,USA,mecum.com,1970,Dodge,Charger R/T
+80,2014-05-10,42900,USD,USA,rmsothebys.com,1970,Dodge,Charger R/T
+81,2014-04-12,60500,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+82,2014-01-19,58300,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+83,2014-01-15,55000,USD,USA,barrettjackson.com,1970,Dodge,Charger R/T
+84,2014-01-15,52930,USD,USA,russoandsteele.com,1970,Dodge,Charger R/T
+85,2022-02-08,46000,Euro,Ireland,collectingcars.com,1996,Nissan,Skyline (R33) GT-R
+86,2021-05-22,60750,GBP,Great Britain,silverstoneauctions.com,1996,Nissan,Skyline (R33) GT-R
+87,2017-03-04,18112,GBP,Great Britain,historics.co.uk,1996,Nissan,Skyline (R33) GT-R
+88,2022-02-08,105000,USD,USA,bringatrailer.com,1995,Nissan,Skyline (R33) GT-R
+89,2022-02-04,54500,CAD,Canada,formulaauctions.com,1995,Nissan,Skyline (R33) GT-R
+90,2022-01-21,53133,USD,USA,bringatrailer.com,1995,Nissan,Skyline (R33) GT-R
+91,2022-01-14,59033,USD,USA,bringatrailer.com,1995,Nissan,Skyline (R33) GT-R
+92,2021-12-30,51250,USD,USA,bringatrailer.com,1995,Nissan,Skyline (R33) GT-R
+93,2021-12-15,75000,USD,USA,bringatrailer.com,1995,Nissan,Skyline (R33) GT-R
+94,2021-12-08,68500,USD,USA,bringatrailer.com,1995,Nissan,Skyline (R33) GT-R
+95,2021-11-13,43875,GBP,Great Britain,silverstoneauctions.com,1995,Nissan,Skyline (R33) GT-R
+96,2021-08-24,61000,AUD,Australia,collectingcars.com,1995,Nissan,Skyline (R33) GT-R
+97,2021-08-14,235000,USD,USA,rmsothebys.com,1995,Nissan,Skyline (R33) GT-R
+98,2021-06-18,62000,AUD,Australia,collectingcars.com,1995,Nissan,Skyline (R33) GT-R
+99,2021-05-20,66000,USD,USA,mecum.com,1995,Nissan,Skyline (R33) GT-R
+100,2021-05-18,64500,USD,USA,bringatrailer.com,1995,Nissan,Skyline (R33) GT-R
+101,2021-05-11,37750,USD,USA,bringatrailer.com,1995,Nissan,Skyline (R33) GT-R
+102,2021-05-04,52500,USD,USA,bringatrailer.com,1995,Nissan,Skyline (R33) GT-R
+103,2021-04-03,62000,USD,Japan,classic.com,1995,Nissan,Skyline (R33) GT-R
+104,2021-03-12,59000,USD,USA,bringatrailer.com,1995,Nissan,Skyline (R33) GT-R
+105,2021-01-09,88000,USD,USA,mecum.com,1995,Nissan,Skyline (R33) GT-R
+106,2022-02-16,32250,GBP,Great Britain,themarket.bonhams.com,1994,Toyota,Supra
+107,2021-10-20,44500,GBP,Great Britain,collectingcars.com,1994,Toyota,Supra
+108,2021-06-19,550000,USD,USA,barrettjackson.com,1994,Toyota,Supra Fast and Furious Car
+109,2020-01-18,85800,USD,USA,barrettjackson.com,1994,Toyota,Supra
+110,2020-12-15,71000,USD,USA,bringatrailer.com,1994,Toyota,Supra
+111,2020-11-27,66500,USD,USA,bringatrailer.com,1994,Toyota,Supra
+112,2019-11-19,76000,USD,USA,bringatrailer.com,1994,Toyota,Supra
+113,2019-06-01,53000,USD,USA,rmsothebys.com,1994,Toyota,Supra
+114,2018-04-13,50600,USD,USA,barrettjackson.com,1994,Toyota,Supra
+115,2016-09-04,68200,USD,USA,rmsothebys.com,1994,Toyota,Supra
+116,2016-01-26,31350,USD,USA,barrettjackson.com,1994,Toyota,Supra
+117,2022-01-14,155000,USD,USA,mecum.com,1995,Mitsubishi,Eclipse Fast and Furious
+118,2017-06-28,1600,USD,USA,bringatrailer.com,1995,Mitsubishi,Eclipse
+119,2022-06-02,34200,USD,USA,bringatrailer.com,1995,Mitsubishi,Eclipse
+120,2016-01-21,46200,USD,USA,barrettjackson.com,1995,Volkswagen,Jetta Fast and Furious
+121,2021-01-26,5350,USD,USA,carsandbids.com,1995,,Volkswagen Jetta
+122,2022-07-09,23250,USD,USA,bringatrailer.com,2000,Honda,S2000
+123,2022-07-07,33750,USD,USA,bringatrailer.com,2000,Honda,S2000
+124,2022-06-17,28550,USD,USA,bringatrailer.com,2000,Honda,S2000
+125,2022-06-17,20550,USD,USA,carsandbids.com,2000,Honda,S2000
+126,2022-06-04,26000,USD,USA,bringatrailer.com,2000,Honda,S2000
+127,2022-05-30,36000,USD,USA,bringatrailer.com,2000,Honda,S2000
+128,2022-01-09,27050,USD,USA,bringatrailer.com,2000,Honda,S2000
+129,2021-10-23,31500,USD,USA,bringatrailer.com,2000,Honda,S2000
+130,2021-07-08,42500,USD,USA,bringatrailer.com,2000,Honda,S2000
+131,2021-07-08,27500,USD,USA,bringatrailer.com,2000,Honda,S2000
+132,2021-04-30,18250,USD,USA,carsandbids.com,2000,Honda,S2000
+133,2020-11-25,20500,USD,USA,bringatrailer.com,2000,Honda,S2000
+134,2020-10-01,23500,USD,USA,autohunter.com,2000,Honda,S2000
+135,2020-08-26,23250,USD,USA,bringatrailer.com,2000,Honda,S2000
+136,2020-06-22,31000,USD,USA,bringatrailer.com,2000,Honda,S2000
+137,2020-01-16,27500,USD,USA,barrettjackson.com,2000,Honda,S2000
+138,2019-09-17,10750,USD,USA,bringatrailer.com,2000,Honda,S2000
+139,2019-08-02,18250,USD,USA,bringatrailer.com,2000,Honda,S2000
+140,2019-07-13,20900,USD,USA,mecum.com,2000,Honda,S2000
+141,2018-11-27,27000,USD,USA,bringatrailer.com,2000,Honda,S2000
+142,2018-11-06,48000,USD,USA,bringatrailer.com,2000,Honda,S2000
+143,2018-03-02,29000,USD,USA,gaaclassiccars.com,2000,Honda,S2000
+144,2017-08-14,20555,USD,USA,bringatrailer.com,2000,Honda,S2000
+145,2017-05-24,9375,USD,USA,bringatrailer.com,2000,Honda,S2000
+146,2017-01-31,19000,USD,USA,bringatrailer.com,2000,Honda,S2000
+147,2015-09-02,22000,USD,USA,bringatrailer.com,2000,Honda,S2000
+148,2022-05-21,20000,USD,USA,bringatrailer.com,1994,Acura,Integra GS-R
+149,2022-03-13,15250,USD,USA,carsandbids.com,1994,Acura,Integra GS-R
+150,2021-08-05,5200,USD,USA,carsandbids.com,1994,Acura,Integra GS-R
+151,2021-01-14,6500,USD,USA,bringatrailer.com,1994,Acura,Integra GS-R
+152,2018-10-19,7400,USD,USA,bringatrailer.com,1994,Acura,Integra GS-R
+153,2018-02-09,12500,USD,USA,bringatrailer.com,1994,Acura,Integra GS-R
+154,2017-12-15,8002,USD,USA,bringatrailer.com,1994,Acura,Integra GS-R
+155,2021-01-16,308000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+156,2021-01-15,308000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+157,2020-03-13,173250,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+158,2020-01-10,165000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+159,2019-08-03,258500,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+160,2019-03-15,231000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+161,2019-01-11,220000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+162,2018-10-27,192500,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+163,2018-08-23,165000,USD,USA,worldwideauctioneers.com,1969,Chevrolet,Yenko Camaro
+164,2018-04-07,99000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+165,2017-09-09,175000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+166,2017-05-19,330000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+167,2017-05-19,212500,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+168,2016-08-19,280000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+169,2016-05-21,260000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+170,2016-05-21,225000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+171,2016-06-30,330000,USD,USA,barrettjackson.com,1969,Chevrolet,Yenko Camaro
+172,2016-01-22,330000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+173,2016-01-22,225000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+174,2016-01-22,300000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+175,2015-04-24,209000,USD,USA,worldwideauctioneers.com,1969,Chevrolet,Yenko Camaro
+176,2015-01-17,264000,USD,USA,barrettjackson.com,1969,Chevrolet,Yenko Camaro
+177,2014-09-06,285000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+178,2014-01-25,235000,USD,USA,mecum.com,1969,Chevrolet,Yenko Camaro
+179,2022-05-30,97000,USD,USA,bringatrailer.com,1993,Toyota,Supra
+180,2022-03-25,176000,USD,USA,rmsothebys.com,1993,Toyota,Supra
+181,2021-09-18,110000,USD,USA,barrettjackson.com,1993,Toyota,Supra
+182,2021-03-28,47250,GBP,Great Britain,silverstoneauctions.com,1993,Toyota,Supra
+183,2021-03-02,73000,USD,USA,bringatrailer.com,1993,Toyota,Supra
+184,2020-10-24,68200,USD,USA,barrettjackson.com,1993,Toyota,Supra
+185,2020-03-06,137200,USD,USA,rmsothebys.com,1993,Toyota,Supra
+186,2020-02-10,62493,USD,USA,bringatrailer.com,1993,Toyota,Supra
+187,2019-12-11,59000,USD,USA,bringatrailer.com,1993,Toyota,Supra
+188,2019-12-04,49000,USD,USA,bringatrailer.com,1993,Toyota,Supra
+189,2019-08-16,89600,USD,USA,bonhams.com,1993,Toyota,Supra
+190,2019-06-21,57500,USD,USA,bringatrailer.com,1993,Toyota,Supra
+191,2019-06-14,55500,USD,USA,bringatrailer.com,1993,Toyota,Supra
+192,2019-04-04,128000,USD,USA,bringatrailer.com,1993,Toyota,Supra
+193,2018-12-07,43750,USD,USA,bringatrailer.com,1993,Toyota,Supra
+194,2018-06-28,80700,USD,USA,bringatrailer.com,1993,Toyota,Supra
+195,2018-03-21,40999,USD,USA,bringatrailer.com,1993,Toyota,Supra
+196,2021-12-08,19000,AUD,Australia,collectingcars.com,2002,Mitsubishi,Lancer Evo VII
+197,2021-07-30,22050,GBP,Great Britain,collectingcars.com,2002,Mitsubishi,Lancer Evo VII
+198,2020-06-27,14300,GBP,Great Britain,classiccarauctions.co.uk,2002,Mitsubishi,Lancer Evo VII
+199,2020-02-02,2420,USD,USA,mecum.com,2003,Mitsubishi,Eclipse
+200,2022-06-06,415,USD,USA,eBay.com,2003,Mitsubishi,Eclipse
+201,2022-08-05,35250,USD,USA,bringatrailer.com,2001,Honda,S2000
+202,2022-07-26,33500,USD,USA,bringatrailer.com,2001,Honda,S2000
+203,2022-07-21,40000,USD,USA,bringatrailer.com,2001,Honda,S2000
+204,2022-07-09,24000,USD,USA,mecum.com,2001,Honda,S2000
+205,2022-01-06,26000,USD,USA,mecum.com,2001,Honda,S2000
+206,2021-12-07,21250,USD,USA,carsandbids.com,2001,Honda,S2000
+207,2021-10-24,27500,USD,USA,bringatrailer.com,2001,Honda,S2000
+208,2021-08-01,45250,USD,USA,bringatrailer.com,2001,Honda,S2000
+209,2021-07-25,37500,USD,USA,bringatrailer.com,2001,Honda,S2000
+210,2021-07-05,30200,USD,USA,bringatrailer.com,2001,Honda,S2000
+211,2021-06-30,18450,USD,USA,carsandbids.com,2001,Honda,S2000
+212,2021-01-07,27500,USD,USA,bringatrailer.com,2001,Honda,S2000
+213,2020-12-03,22000,USD,USA,carsandbids.com,2001,Honda,S2000
+214,2020-11-18,23750,USD,USA,bringatrailer.com,2001,Honda,S2000
+215,2019-08-14,21000,USD,USA,bringatrailer.com,2001,Honda,S2000
+216,2019-07-26,18250,USD,USA,bringatrailer.com,2001,Honda,S2000
+217,2019-06-03,20500,USD,USA,bringatrailer.com,2001,Honda,S2000
+218,2018-10-27,15950,USD,USA,mecum.com,2001,Honda,S2000
+219,2018-10-22,22472,USD,Canada,bringatrailer.com,2001,Honda,S2000
+220,2018-10-15,23250,USD,USA,bringatrailer.com,2001,Honda,S2000
+221,2017-07-12,18500,USD,USA,bringatrailer.com,2001,Honda,S2000
+222,2016-09-04,13700,USD,USA,rmsothebys.com,2001,Honda,S2000
+223,2016-07-06,29388,USD,USA,bringatrailer.com,2001,Honda,S2000
+224,2015-10-01,17500,USD,USA,bringatrailer.com,2001,Honda,S2000
+225,2022-07-29,63000,USD,USA,mecum.com,1967,Ford,Mustang Fastback
+226,2022-07-29,79000,USD,USA,mecum.com,1967,Ford,Mustang Fastback
+227,2021-03-25,66000,USD,USA,barrettjackson.com,1967,Ford,Mustang Fastback
+228,2021-01-28,55000,USD,USA,bringatrailer.com,1967,Ford,Mustang Fastback
+229,2021-05-16,75900,USD,USA,mecum.com,1967,Ford,Mustang Fastback
+230,2020-11-19,47500,USD,USA,bringatrailer.com,1967,Ford,Mustang Fastback
+231,2020-11-14,148500,USD,USA,bringatrailer.com,1967,Ford,Mustang Fastback
+232,2020-10-17,46200,USD,USA,mecum.com,1967,Ford,Mustang Fastback
+233,2019-08-03,66000,USD,USA,mecum.com,1967,Ford,Mustang Fastback
+234,2019-07-01,34500,USD,USA,bringatrailer.com,1967,Ford,Mustang Fastback
+235,2019-05-17,95700,USD,USA,mecum.com,1967,Ford,Mustang Fastback
+236,2018-09-28,52800,USD,USA,barrettjackson.com,1967,Ford,Mustang Fastback
+237,2018-09-02,56100,USD,USA,rmsothebys.com,1967,Ford,Mustang Fastback
+238,2018-08-04,39600,USD,USA,mecum.com,1967,Ford,Mustang Fastback
+239,2017-07-22,41000,USD,USA,gaaclassiccars.com,1967,Ford,Mustang Fastback
+240,2017-07-20,27500,USD,USA,bringatrailer.com,1967,Ford,Mustang Fastback
+241,2017-06-24,79200,USD,USA,barrettjackson.com,1967,Ford,Mustang Fastback
+242,2016-10-14,61600,USD,USA,gaaclassiccars.com,1967,Ford,Mustang Fastback
+243,2016-05-20,36000,USD,USA,mecum.com,1967,Ford,Mustang Fastback
+244,2014-05-17,50000,USD,USA,mecum.com,1967,Ford,Mustang Fastback
+245,2014-05-15,28500,USD,USA,mecum.com,1967,Ford,Mustang Fastback
+246,2014-04-13,35200,USD,USA,barrettjackson.com,1967,Ford,Mustang Fastback
+247,2015-04-17,50600,USD,USA,barrettjackson.com,1967,Ford,Mustang Fastback
+248,2022-07-27,26500,USD,USA,mecum.com,1971,Chevrolet,Monte Carlo
+249,2022-07-22,31000,USD,USA,gaaclassiccars.com,1971,Chevrolet,Monte Carlo
+250,2022-03-10,29000,USD,USA,gatewayclassiccars.com,1971,Chevrolet,Monte Carlo
+251,2022-01-26,50600,USD,USA,barrettjackson.com,1971,Chevrolet,Monte Carlo
+252,2021-07-30,30800,USD,USA,mecum.com,1971,Chevrolet,Monte Carlo
+253,2020-10-23,29700,USD,USA,barrettjackson.com,1971,Chevrolet,Monte Carlo
+254,2020-03-12,33000,USD,USA,mecum.com,1971,Chevrolet,Monte Carlo
+255,2019-10-11,24200,USD,USA,mecum.com,1971,Chevrolet,Monte Carlo
+256,2019-06-28,19800,USD,USA,barrettjackson.com,1971,Chevrolet,Monte Carlo
+257,2018-05-19,11000,USD,USA,mecum.com,1971,Chevrolet,Monte Carlo
+258,2018-01-09,37400,USD,USA,mecum.com,1971,Chevrolet,Monte Carlo
+259,2017-08-04,15000,USD,USA,mecum.com,1971,Chevrolet,Monte Carlo
+260,2017-08-03,12000,USD,USA,mecum.com,1971,Chevrolet,Monte Carlo
+261,2015-09-17,10000,USD,USA,mecum.com,1971,Chevrolet,Monte Carlo
+262,2015-04-10,18000,USD,USA,mecum.com,1971,Chevrolet,Monte Carlo
+263,2014-09-03,9500,USD,USA,mecum.com,1971,Chevrolet,Monte Carlo
+264,2014-08-31,8800,USD,USA,rmsothebys.com,1971,Chevrolet,Monte Carlo
+265,2021-10-18,42009,AUD,Australia,collectingcars.com,2001,Nissan,Silvia S15
+266,2022-07-08,29000,USD,USA,gatewayclassiccars.com,1972,Ford,Gran Torino Sport
+267,2022-04-25,8900,USD,USA,allcollectorcars.com,1972,Ford,Gran Torino Sport
+268,2021-04-08,30800,USD,USA,mecum.com,1972,Ford,Gran Torino Sport
+269,2019-08-03,27500,USD,USA,mecum.com,1972,Ford,Gran Torino Sport
+270,2018-09-25,47500,USD,USA,bringatrailer.com,1972,Ford,Gran Torino Sport
+271,2016-10-15,84700,USD,USA,barrettjackson.com,1972,Ford,Gran Torino Sport
+272,2016-08-19,24500,USD,USA,mecum.com,1972,Ford,Gran Torino Sport
+273,2016-01-27,29700,USD,USA,russoandsteele.com,1972,Ford,Gran Torino Sport
+274,2015-07-30,37000,USD,USA,mecum.com,1972,Ford,Gran Torino Sport
+275,2014-08-31,19800,USD,USA,rmsothebys.com,1972,Ford,Gran Torino Sport
+276,2014-06-19,16500,USD,USA,russoandsteele.com,1972,Ford,Gran Torino Sport
+277,2022-01-07,55000,USD,USA,mecum.com,1973,Chevrolet,Camaro RS Z28
+278,2021-05-21,47300,USD,USA,mecum.com,1973,Chevrolet,Camaro RS Z28
+279,2020-10-30,29700,USD,USA,mecum.com,1973,Chevrolet,Camaro RS Z28
+280,2020-01-17,50600,USD,USA,barrettjackson.com,1973,Chevrolet,Camaro RS Z28
+281,2020-01-16,44000,USD,USA,barrettjackson.com,1973,Chevrolet,Camaro RS Z28
+282,2019-09-20,36500,USD,USA,bringatrailer.com,1973,Chevrolet,Camaro RS Z28
+283,2016-04-08,41800,USD,USA,barrettjackson.com,1973,Chevrolet,Camaro RS Z28
+284,2014-10-11,22500,USD,USA,mecum.com,1973,Chevrolet,Camaro RS Z28
+285,2022-06-25,14000,USD,USA,bringatrailer.com,2001,BMW,540i
+286,2022-05-08,21000,USD,USA,bringatrailer.com,2001,BMW,540i
+287,2022-04-12,6800,USD,USA,carsandbids.com,2001,BMW,540i
+288,2021-12-01,6500,USD,USA,carsandbids.com,2001,BMW,540i
+289,2021-10-26,7200,USD,USA,carsandbids.com,2001,BMW,540i
+290,2020-11-05,4300,USD,USA,carsandbids.com,2001,BMW,540i
+291,2020-10-28,9200,USD,USA,carsandbids.com,2001,BMW,540i
+292,2018-03-14,11355,USD,USA,bringatrailer.com,2001,BMW,540i
+293,2017-11-24,7500,USD,USA,bringatrailer.com,2001,BMW,540i
+294,2016-12-19,10000,USD,USA,bringatrailer.com,2001,BMW,540i
+295,2016-09-26,9100,USD,USA,bringatrailer.com,2001,BMW,540i
+296,2022-04-28,20500,USD,USA,carsandbids.com,2009,Subaru,Impreza WRX STI
+297,2021-05-31,13500,GBP,Great Britain,collectingcars.com,2009,Subaru,Impreza WRX STI
+298,2017-11-16,18500,USD,USA,mecum.com,2009,Subaru,Impreza WRX STI
+299,2022-07-23,106000,USD,USA,gaaclassiccars.com,1966,Chevrolet,Corvette Stingray
+300,2015-03-12,82500,USD,USA,rmsothebys.com,1966,Chevrolet,Corvette Stingray
+301,2018-11-16,198000,USD,USA,mecum.com,2012,Gurkha,Armored Vehicle
+302,2019-08-16,7650000,USD,USA,rmsothebys.com,1965,Ford,GT40
+303,2014-08-16,6930000,USD,USA,rmsothebys.com,1965,Ford,GT40
+304,2022-01-29,209000,USD,USA,barrettjackson.com,1965,Ford,GT40 Replica
+305,2014-11-15,100000,USD,USA,mecum.com,1965,Ford,GT40 Replica
+306,2022-07-30,100000,USD,USA,mecum.com,1969,Ford,Mustang Fastback
+307,2011-08-19,19000,USD,USA,mecum.com,1969,Ford,Mustang Fastback
+308,2020-01-08,41800,USD,USA,mecum.com,1969,Ford,Mustang Fastback
+309,2018-04-13,84700,USD,USA,barrettjackson.com,1969,Ford,Mustang Fastback
+310,2016-12-03,67000,USD,USA,mecum.com,1969,Ford,Mustang Fastback
+311,2015-01-15,40700,USD,USA,barrettjackson.com,1969,Ford,Mustang Fastback
+312,2022-05-28,51187,GBP,Great Britain,silverstoneauctions.com,1971,Jensen,Interceptor
+313,2021-12-14,51505,USD,USA,bringatrailer.com,1971,Jensen,Interceptor
+314,2021-04-20,33250,USD,USA,bringatrailer.com,1971,Jensen,Interceptor
+315,2020-10-23,53760,USD,USA,rmsothebys.com,1971,Jensen,Interceptor
+316,2020-01-28,29500,USD,USA,bringatrailer.com,1971,Jensen,Interceptor
+317,2017-02-13,20000,USD,USA,bringatrailer.com,1971,Jensen,Interceptor
+318,2016-12-12,10600,USD,USA,bringatrailer.com,1971,Jensen,Interceptor
+319,2021-05-26,245000,USD,USA,rmsothebys.com,1969,Dodge,Charger Daytona
+320,2021-03-27,236500,USD,USA,barrettjackson.com,1969,Dodge,Charger Daytona
+321,2018-01-17,198000,USD,USA,russoandsteele.com,1969,Dodge,Charger Daytona
+322,2016-01-27,159500,USD,USA,russoandsteele.com,1969,Dodge,Charger Daytona
