@@ -6,7 +6,7 @@ from datetime import datetime as dt
 import plotly.express as px
 
 car_sales = pd.read_csv('car_sales_clean.csv')
-df = pd.read_csv('ff_cars.csv')
+df = pd.read_csv('ff_cars_clean.csv')
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -37,7 +37,7 @@ app.layout = html.Div([
                     {'label': 'The Fate of the Furious', 'value': 'FF8'},
                     {'label': 'F9', 'value': 'FF9'}
                 ],
-                value=['FF1', 'FF2', 'FF3', 'FF4', 'FF5', 'FF6', 'FF7', 'FF8', 'FF9'],
+                value='FF1',
                 multi=False
             ),
 
@@ -128,8 +128,9 @@ app.layout = html.Div([
      ],
     Input('input_movie', 'value'))
 def update_statistics(input_movie):
-    print(input_movie)
-    df_update = df.loc[(df['Film Order'].str.contains(input_movie))]
+
+    df_update = df[(df['Film Order'].str.contains(str(input_movie)))]
+
 
     return df_update.size(), sum(df_update['Car Count']), 0, 0
     # , sum(df_update['Number_of_Casualties']), sum(df_update['Number_of_Vehicles']), days.days

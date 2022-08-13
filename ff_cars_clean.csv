@@ -1,0 +1,103 @@
+,Year,Car Name,Manufacturer,Make,Model,Status,Car_Class,Film,Film Order,Role
+0,1965,Ford GT40,Ford,Ford,GT40,Discontinued,Sports Car,Fast Five,FF5,Minor
+1,1966,Chevrolet Corvette Grand Sport Sting Ray,Chevrolet (General Motors),Chevrolet,Corvette Sting Ray,Discontinued,"2-door convertible, 2-door coupe",Fast Five,FF5,Minor
+2,1967,Chevrolet C/K,General Motors,Chevrolet,C-10,Discontinued,Pickup truck,Fast & Furious,FF4,Minor
+3,1967,Chevrolet Camaro SS,General Motors,Chevrolet,Chevrolet Camaro SS,Discontinued,"Pony car, Muscle car",Fast & Furious 6,FF6,Minor
+4,1967,Chevrolet Camaro Z28,General Motors,Chevrolet,Chevrolet Camaro Z28,Discontinued,Customized,Furious 7,FF7,Major
+5,1967,Ford Mustang Fastback,Ford Motor Corporation,Ford,Mustang Fastback,In Production,Pony car,The Fast and the Furious: Tokyo Drift,FF3,Major
+6,1968,Dodge Charger Hellacious,Chrysler,Dodge,Charger Hellacious,Discontinued,Muscle,F9,FF9,Major
+7,1968,Dodge Charger R/T,Chrysler,Dodge,Charger R/T,Discontinued,Pony car,"Furious 7, The Fate of the Furious, F9","FF7, FF8, FF9",Major
+8,1969,Dodge Charger Daytona,Dodge (Chrysler),Dodge,Charger Daytona,Discontinued,Muscle car,Fast & Furious 6,FF6,Minor
+9,1969,Ford Mustang Fastback,Ford,Ford,Mustang Fastback,In Production,Classic Muscle/Pony car,Fast & Furious 6,FF6,Major
+10,1969,Yenko Camaro SYC,General Motors,Chevrolet,Yenko Camaro,Discontinued,"Pony car, Muscle car, Sports car",2 Fast 2 Furious,FF2,Major
+11,1970,Chevrolet Chevelle SS,General Motors,Chevrolet,Chevelle SS,Discontinued,Mid-size,"The Fast and the Furious, Fast & Furious, The Fate of the Furious","FF1, FF4, FF8",Major
+12,1970,Chevrolet Monte Carlo,General Motors,Chevrolet,Monte Carlo,Discontinued,"2 hardtop, Coupe",2 Fast 2 Furious,FF2,Minor
+13,1970,Dodge Challenger R/T,Dodge,Dodge,Challenger R/T,In Production,Classic Muscle/ Pony car,2 Fast 2 Furious,FF2,Minor
+14,1970,Dodge Charger R/T,Chrysler,Dodge,Charger R/T,In Production,Pony car,"The Fast and the Furious, Fast & Furious, Fast Five, Furious 7, F9","FF1, FF4, FF5, FF7, FF9",Major
+15,1970,Ford Escort MK I RS1600,Ford Motorworks,Ford,Escort MK I,Discontinued,Sports/Rally car,Fast & Furious 6,FF6,Minor
+16,1970,Plymouth Barracuda,Chrysler Corporation,Plymouth,Barracuda,Discontinued,Pony car,"Fast & Furious 6, Furious 7","FF6, FF7",Minor
+17,1970,Plymouth Road Runner,Plymouth,Plymouth,Road Runner,Discontinued,Muscle car,"The Fast and the Furious: Tokyo Drift, Fast & Furious, Fast & Furious 6, Furious 7","FF3, FF4, FF6",Major
+18,1971,Chevrolet Monte Carlo,General Motors,Chevrolet,Monte Carlo,Discontinued,Coupe,The Fast and the Furious: Tokyo Drift,FF3,Minor
+19,1971,Ford Maverick,Ford,Ford,Maverick,Discontinued,,Fast Five,FF5,Minor
+20,1971,Jensen Interceptor,Carrozzeria Touring,Jensen,Interceptor,Discontinued,Luxury carGrand Tourer,Fast & Furious 6,FF6,Minor
+21,1971,Nissan Skyline GT-R KPGC10,Nissan,Nissan,Skyline GT-R,Discontinued,2-door coupe,Fast Five,FF5,Minor
+22,1972,De Tomaso Pantera GTS,De Tomaso,De Tomaso,Pantera GTS,Discontinued,2-door Coupé,Fast Five,FF5,Minor
+23,1972,Ford Gran Torino Sport,Ford,Ford,Gran Torino Sport,Discontinued,2 Door Muscle,Fast & Furious,FF4,Minor
+24,1973,Chevrolet Camaro RS-Z28 F-Bomb,General Motors,Chevrolet,Camaro RS Z28,Discontinued,,Fast & Furious,FF4,Minor
+25,1978,Pontiac Trans Am,Pontiac,Pontiac,Trans Am,Discontinued,Pony CarMuscle Car,"Fast & Furious, Fast Five","FF4, FF5",Minor
+26,1984,Pontiac Fiero,Pontiac,Pontiac,Fiero,,Notchback Coupe,F9,FF9,Major
+27,1987,Buick Grand National,Buick (General Motors),Buick,Regal (Grand National),Discontinued,Mid-size,Fast & Furious,FF4,Minor
+28,1992,Honda Civic Hatchback,Honda/Acura,Honda,Civic,Discontinued,Hatchback,The Fast and the Furious,FF1,Minor
+29,1993,Freightliner FLA 86 64 T,Peterbilt,Peterbilt,FLA 86 64,Discontinued,Semi Truck,The Fast and the Furious,FF1,Minor
+30,1993,Honda Civic EJ1,Honda,Honda,Civic,In Production,2-door coupe,The Fast and the Furious,FF1,Minor
+31,1993,Mazda RX-7,Mazda Motor Corporation,Mazda,RX-7 FD,Discontinued,2-door coupe,2 Fast 2 Furious,FF2,Minor
+32,1993,Mazda RX-7,Mazda Motor Corporation,Mazda,RX-7 FD,Discontinued,2-door coupe,The Fast and the Furious,FF1,Major
+33,1993,Toyota Supra Turbo MK IV,Toyota,Toyota,Supra Turbo MK IV,Discontinued,Sports car,2 Fast 2 Furious,FF2,Minor
+34,1994,Acura Integra,Honda,Acura,Integra,Discontinued,Sedan,The Fast and the Furious,FF1,Minor
+35,1994,Toyota Supra MK IV,Toyota,Toyota,Supra MK IV,Discontinued,Sports Car,The Fast and the Furious,FF1,Major
+36,1995,Ferrari F355 Spider,Ferrari SPA,Ferrari,F355 Spider,Discontinued,Semi-Retro Exotic,"The Fast and the Furious, 2 Fast 2 Furious","FF1, FF2",Minor
+37,1995,Mitsubishi Eclipse,"Diamond-Star Motors, Mitsubishi Motors Corporation",Mitsubishi,Eclipse,Discontinued,Sports Compact,The Fast and the Furious,FF1,Major
+38,1995,Nissan Skyline GT-R R33,Nissan Motor Company,Nissan,Skyline GT-R R33,Discontinued,2-door coupe,The Fast and the Furious,FF1,Minor
+39,1995,Toyota Supra MK IV,Toyota,Toyota,Supra MK IV,Discontinued,Sports car,Furious 7,FF7,Minor
+40,1995,Volkswagen Jetta,Volkswagen,VolksWagen,Jetta ,In Production,Sedan,The Fast and the Furious,FF1,Minor
+41,1996,Nissan Skyline GT-R R33,Nissan Motor Company,Nissan,Skyline GT-R R33,Discontinued,2-door coupe,The Fast and the Furious: Tokyo Drift,FF3,Minor
+42,1997,Mazda RX-7,Mazda Motor Corporation,Mazda,RX-7 FD,Discontinued,Sports car,"The Fast and the Furious: Tokyo Drift, Fast & Furious 6","FF3, FF6",Major
+43,1997,Nissan 240SX,Nissan Motor Company,Nissan,240SX,Discontinued,Sport compact,The Fast and the Furious,FF1,Minor
+44,1998,Ford Crown Victoria,Ford,Ford,Crown Victoria,Discontinued,Sedan,"The Fast and the Furious, 2 Fast 2 Furious","FF1, FF2",Minor
+45,1999,BMW 323is (E36),BMW,E36,323iS,Discontinued,Euro-Exotic,2 Fast 2 Furious,FF2,Minor
+46,1999,Ford F-150 SVT Lightning,Ford Motor Company,Ford,F-150 SVT Lightning,Discontinued,Pickup truck,The Fast and the Furious,FF1,Minor
+47,1999,Nissan Maxima (A32),Nissan Motor Company,Nissan,Maxima,Discontinued,Mid-size,The Fast and the Furious,FF1,Minor
+48,1999,Nissan Skyline GT-R R34,Nissan Motor Company,Nissan,Skyline GT-R R34,Discontinued,Sport compact/Midsize,2 Fast 2 Furious,FF2,Major
+49,1999,Toyota Supra MK IV JDM,Toyota,Toyota,Supra MK IV,Discontinued,Sports Car,Fast Five,FF5,Minor
+50,2000,Acura NSX,Honda,Acura,NSX,Discontinued,Sports car,2 Fast 2 Furious,FF2,Minor
+51,2000,Ferrari 360 Spider,Ferrari SPA,Ferrari,360 Spider,Discontinued,Sports car,2 Fast 2 Furious,FF2,Minor
+52,2001,Honda S2000,Honda Motorworks,Honda,S2000,Discontinued,"Sports car,Roadster",2 Fast 2 Furious,FF2,Minor
+53,2000,Honda S2000,Honda,Honda,S2000,Discontinued,Sports Car,The Fast and the Furious,FF1,Major
+54,2000,Nissan Silvia S15 Spec-R (Nissan 240 SX),Nissan Motor Company,Nissan,240SX,Discontinued,"2-door coupe, Sports car",Fast & Furious,FF4,Minor
+55,2001,BMW 540i E39,BMW,BMW,540i E39,In Production,4 Door Sedan,Fast & Furious,FF4,Minor
+56,2001,Nissan Silvia S15 Spec-S,Nissan,Nissan Silvia,Silvia S15 Spec-S,Discontinued,2-door coupeSports car,The Fast and the Furious: Tokyo Drift,FF3,Major
+57,2002,Hummer H1,Hummer,Hummer,H1,Discontinued,SUV,Fast & Furious,FF4,Minor
+58,2002,Mitsubishi Lancer Evolution VII,Mitsubishi Motors Corporation,Mitsubishi,Lancer Evo VII,Discontinued,Sports compact,2 Fast 2 Furious,FF2,Major
+59,2002,Nissan Fairlady Z (Z33),Nissan,Nissan,350Z,Discontinued,Coupe,The Fast and the Furious: Tokyo Drift,FF3,Minor
+60,2002,Nissan Skyline GT-R R34,Nissan Motor Company,Nissan,Skyline R34 GT-R,Discontinued,2-door coupe,Fast & Furious,FF4,Major
+61,2003,Acura NSX,Honda,Acura,NSX,Discontinued,Sports,"Fast & Furious, Fast Five","FF4, FF5",Major
+62,2003,Mitsubishi Eclipse Spyder GTS,Mitsubishi Motors Corporation,Mitsubishi,Eclipse Spyder GTS,Discontinued,Sports compact,2 Fast 2 Furious,FF2,Major
+63,2003,Saleen S281-E Mustang,Ford,Ford,Mustang Saleen S281,Discontinued,Muscle,2 Fast 2 Furious,FF2,Minor
+64,2004,Aston Martin DB9,Aston Martin,Aston Martin,DB9,Discontinued,2+2 seat 2-door coupé2-door convertible,Fast & Furious 6,FF6,Minor
+65,2004,Mazda RX-8,Mazda,Mazda,RX-8,Discontinued,Sport,The Fast and the Furious: Tokyo Drift,FF3,Minor
+66,2005,Aston Martin DB9,Aston Martin,Aston Martin,DB9,Discontinued,2+2 seat 2-door coupé2-door convertible,Furious 7,FF7,Minor
+67,2005,Volkswagen Touran,Volkswagen,Volkswagen,Touran,In Production,Compact Car,The Fast and the Furious: Tokyo Drift,FF3,Minor
+68,2006,Dodge Charger LX (PPV),Fiat Chrysler Automobiles,Dodge,Charger,Discontinued,Muscle,Fast Five,FF5,Minor
+69,2006,Dodge Viper SRT-10,Chrysler,Dodge,Viper,Discontinued,Convertible,The Fast and the Furious: Tokyo Drift,FF3,Minor
+70,2006,Mitsubishi Lancer Evolution IX,Mitsubishi,Mitsubishi,Lancer Evolution IX,Discontinued,Compact Car,The Fast and the Furious: Tokyo Drift,FF3,Major
+71,2007,Porsche Cayman,Porsche,Porsche,Cayman S,In Production,Sports Car,Fast & Furious,FF4,Minor
+72,2008,Ford Mustang GT Tjaarda 550R,Ford,Ford,Mustang GT Tjaarda 550R,In Production,Muscle,Fast & Furious,FF4,Minor
+73,2009,Nissan 370Z,Nissan,Nissan,370Z,Discontinued,Sports car,Fast Five,FF5,Minor
+74,2009,Nissan GT-R R35,Nissan Motor Company,Nissan,Nissan GT-R R35,In Production,2-door 2+2 coupé,Fast & Furious,FF4,Minor
+75,2009,Subaru Impreza WRX STi GH,Fuji Heavy Industries,Subaru,Impreza WRX STi,Discontinued,Compact Car,Fast & Furious,FF4,Major
+76,2010,Dodge Charger SRT-8,Dodge,Dodge,Charger SRT-8,In Production,Muscle,Fast Five,FF5,Major
+77,2010,Koenigsegg CCXR,Koenigsegg,Koenigsegg,CCXR,Discontinued,Super car,Fast Five,FF5,Minor
+78,2010,Nissan GT-R R35,Nissan Motor Company,Nissan,GT-R R35,In Production,2-door 2+2 coupé,Fast Five,FF5,Minor
+79,2011,Bugatti Veyron,Bugatti Automobiles S.A.S.,Bugatti,Veyron,Discontinued,Super car,Furious 7,FF7,Minor
+80,2011,Dodge Challenger SRT,Fiat Chrysler Automobiles,Dodge,Challenger SRT,In Production,Letty Ortiz,Furious 7,FF7,Major
+81,2011,Dodge Charger PPV,Dodge (Chrysler),Dodge,Charger LX,In Production,Muscle car,Fast Five,FF5,Major
+82,2011,Lexus LFA,Lexus,Lexus,LFA,Discontinued,Sports car,Fast Five,FF5,Minor
+83,2011,Nissan GT-R R35,Nissan Motor Company,Nissan,GT-R R35,In Production,2-door 2+2 coupé,Fast & Furious 6,FF6,Minor
+84,2011,Porsche 996 GT3 RS,Porsche,Porsche,996 GT3 RS,Discontinued,Sports Car,Fast Five,FF5,Minor
+85,2011,STC Delta Didgori-2,STC Delta,STC Delta,Didgori-2,In Production,SUV,F9,FF9,Major
+86,2011,Subaru Impreza WRX STI,Fuji Heavy Industries,Subaru,Impreza WRX STI,Discontinued,Compact car,Fast Five,FF5,Minor
+87,2012,Dodge Charger SRT-8,Dodge,Dodge,Charger SRT-8,In Production,Muscle,Fast & Furious 6,FF6,Major
+88,2012,Nissan GT-R R35,Nissan Motor Company,Nissan,GT-R R35,In Production,2-door 2+2 coupé,Furious 7,FF7,Major
+89,2012,Nissan GT-R R35 Bensopra,Nissan Motor Company,Nissan,GT-R R35,In Production,2-door 2+2 coupé,Fast & Furious 6,FF6,Minor
+90,2012,Subaru Impreza WRX STi GH,Fuji Heavy Industries,Subaru,Impreza WRX ST,In Production,4-door sedan,Furious 7,FF7,Major
+91,2013,Chrysler Town & Country,Chrysler,Chrysler,Town & Country,Discontinued,Minivan,Furious 7,FF7,Minor
+92,2013,Eagle Speedster,Eagle (recreation)Jaguar (base),Eagle,Speedster,By order only,,Fast & Furious 6,FF6,Minor
+93,2014,Chevrolet Suburban LT,Chevrolet/GMC (General Motors),Chevrolet,Suburban,In Production,4-door SUV,Furious 7,FF7,Minor
+94,2014,Dodge Charger SRT-8,"Dodge (Fiat Chrysler Automobiles, previously Chrysler)",Dodge,Charger SRT-8,In Production,Full-size,Furious 7,FF7,Minor
+95,2014,Lykan HyperSport,W Motors,Lykan,Hypersport,Discontinued,Hypercar,Furious 7,FF7,Major
+96,2014,Maserati Ghibli,Maserati,Maserati,Ghibli,In Production,Sport,Furious 7,FF7,Major
+97,2015,Ford Mustang GT350,Ford Motor Cars,Ford,Mustang,In Production,Muscle,F9,FF9,Major
+98,2015,Subaru WRX STi,Fuji Heavy Industries,Subaru,WRX STI,In Production,4-door sedan,The Fate of the Furious,FF8,Minor
+99,2019,Jaguar XE,Jaguar Land Rover,Jaguar,XE SV,In Production,Sports,F9,FF9,Major
+100,2020,Jeep Gladiator,Fiat Chrysler Automobiles,Jeep,Gladiator,In Production,SUV,F9,FF9,Major
+101,2012,Gurkha LAPV Armored Vehicle,Gurkha,Gurkha,LAPV Armored Vehicle,In Production,Military Vehicle,Fast Five,FF5,Major
