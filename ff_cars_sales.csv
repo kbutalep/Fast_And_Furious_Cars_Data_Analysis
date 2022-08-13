@@ -1,31 +1,72 @@
 Car,Sale Date,Sale Amount,Currency unit,Sold Location,Source
-1996 Nissan Skyline (R33) GT-R,05/10/2022,140000,GBP,Great Britain,collectingcars.com
-1996 Nissan Skyline (R33) GT-R,01/26/2022,221500,AUD,Australia,collectingcars.com
-1996 Nissan Skyline (R33) GT-R,10/21/2021,100000,GBP,Great Britain,collectingcars.com
-1996 Nissan Skyline (R33) GT-R,07/13/2021,310000,USD,USA,bringatrailer.com
-1996 Nissan Skyline (R33) GT-R,06/22/2021,315187,USD,USA,bringatrailer.com
-1996 Nissan Skyline (R33) GT-R,11/11/2017,29000,GBP,Great Britain,silverstoneauctions.com
-1996 Nissan Skyline (R33) GT-R,09/06/2017,25300,GBP,Great Britain,rmsothebys.com
-1996 Nissan Skyline (R33) GT-R,06/29/2022,63500,AUD,Australia,collectingcars.com
-1995 Nissan Skyline (R33) GT-R,05/13/2022,58000,USD,USA,bringatrailer.com
-1996 Nissan Skyline (R33) GT-R,05/01/2022,57500,USD,USA,bringatrailer.com
-1995 Nissan Skyline (R33) GT-R,04/21/2022,49995,USD,USA,carsandbids.com
-1995 Nissan Skyline (R33) GT-R,03/29/2022,83500,USD,USA,bringatrailer.com
-1971 Nissan Skyline,01/16/2022,129000,USD,USA,bringatrailer.com
-1971 Nissan Skyline,08/23/2021,95959,USD,USA,bringatrailer.com
-1971 Nissan Skyline,02/04/2019,63500,USD,USA,bringatrailer.com
-1971 Nissan Skyline,08/23/2018,75900,USD,USA,mecum.com
-1971 Nissan Skyline,01/23/2017,126000,USD,USA,bringatrailer.com
+1965 Ford GT40,08/16/2019,7650000,USD,USA,rmsothebys.com
+1965 Ford GT40,08/16/2014,6930000,USD,USA,rmsothebys.com
+1965 Ford GT40 Replica,01/29/2022,209000,USD,USA,barrettjackson.com
+1965 Ford GT40 Replica,11/15/2014,100000,USD,USA,mecum.com
+1966 Chevrolet Corvette Stingray,07/23/2022,106000,USD,USA,gaaclassiccars.com
+1966 Chevrolet Corvette Stingray,03/12/2015,82500,USD,USA,rmsothebys.com
+1967 Ford Mustang Fastback,07/29/2022,63000,USD,USA,mecum.com
+1967 Ford Mustang Fastback,07/29/2022,79000,USD,USA,mecum.com
+1967 Ford Mustang Fastback,03/25/2021,66000,USD,USA,barrettjackson.com
+1967 Ford Mustang Fastback,01/28/2021,55000,USD,USA,bringatrailer.com
+1967 Ford Mustang Fastback,05/16/2021,75900,USD,USA,mecum.com
+1967 Ford Mustang Fastback,11/19/2020,47500,USD,USA,bringatrailer.com
+1967 Ford Mustang Fastback,11/14/2020,148500,USD,USA,bringatrailer.com
+1967 Ford Mustang Fastback,10/17/2020,46200,USD,USA,mecum.com
+1967 Ford Mustang Fastback,08/03/2019,66000,USD,USA,mecum.com
+1967 Ford Mustang Fastback,07/01/2019,34500,USD,USA,bringatrailer.com
+1967 Ford Mustang Fastback,05/17/2019,95700,USD,USA,mecum.com
+1967 Ford Mustang Fastback,09/28/2018,52800,USD,USA,barrettjackson.com
+1967 Ford Mustang Fastback,09/02/2018,56100,USD,USA,rmsothebys.com
+1967 Ford Mustang Fastback,08/04/2018,39600,USD,USA,mecum.com
+1967 Ford Mustang Fastback,07/22/2017,41000,USD,USA,gaaclassiccars.com
+1967 Ford Mustang Fastback,07/20/2017,27500,USD,USA,bringatrailer.com
+1967 Ford Mustang Fastback,06/24/2017,79200,USD,USA,barrettjackson.com
+1967 Ford Mustang Fastback,10/14/2016,61600,USD,USA,gaaclassiccars.com
+1967 Ford Mustang Fastback,05/20/2016,36000,USD,USA,mecum.com
+1967 Ford Mustang Fastback,05/17/2014,50000,USD,USA,mecum.com
+1967 Ford Mustang Fastback,05/15/2014,28500,USD,USA,mecum.com
+1967 Ford Mustang Fastback,04/13/2014,35200,USD,USA,barrettjackson.com
+1967 Ford Mustang Fastback,04/17/2015,50600,USD,USA,barrettjackson.com
+1969 Chevrolet Yenko Camaro,01/16/2021,308000,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,01/15/2021,308000,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,03/13/2020,173250,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,01/10/2020,165000,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,08/03/2019,258500,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,03/15/2019,231000,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,01/11/2019,220000,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,10/27/2018,192500,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,08/23/2018,165000,USD,USA,worldwideauctioneers.com
+1969 Chevrolet Yenko Camaro,04/07/2018,99000,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,09/09/2017,175000,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,05/19/2017,330000,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,05/19/2017,212500,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,08/19/2016,280000,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,05/21/2016,260000,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,05/21/2016,225000,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,06/30/2016,330000,USD,USA,barrettjackson.com
+1969 Chevrolet Yenko Camaro,01/22/2016,330000,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,01/22/2016,225000,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,01/22/2016,300000,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,04/24/2015,209000,USD,USA,worldwideauctioneers.com
+1969 Chevrolet Yenko Camaro,01/17/2015,264000,USD,USA,barrettjackson.com
+1969 Chevrolet Yenko Camaro,09/06/2014,285000,USD,USA,mecum.com
+1969 Chevrolet Yenko Camaro,01/25/2014,235000,USD,USA,mecum.com
+1969 Dodge Charger Daytona,05/26/2021,245000,USD,USA,rmsothebys.com
+1969 Dodge Charger Daytona,03/27/2021,236500,USD,USA,barrettjackson.com
+1969 Dodge Charger Daytona,01/17/2018,198000,USD,USA,russoandsteele.com
+1969 Dodge Charger Daytona,01/27/2016,159500,USD,USA,russoandsteele.com
+1969 Ford Mustang Fastback,07/30/2022,100000,USD,USA,mecum.com
+1969 Ford Mustang Fastback,08/19/2011,19000,USD,USA,mecum.com
+1969 Ford Mustang Fastback,01/08/2020,41800,USD,USA,mecum.com
+1969 Ford Mustang Fastback,04/13/2018,84700,USD,USA,barrettjackson.com
+1969 Ford Mustang Fastback,12/03/2016,67000,USD,USA,mecum.com
+1969 Ford Mustang Fastback,01/15/2015,40700,USD,USA,barrettjackson.com
 1970 Dodge Charger R/T,07/15/2022,67500,USD,USA,bringatrailer.com
 1970 Dodge Charger R/T,06/30/2022,85800,USD,USA,barrettjackson.com
 1970 Dodge Charger R/T,05/02/2022,104000,USD,USA,gatewayclassiccars.com
 1970 Dodge Charger R/T,04/09/2022,119900,USD,USA,barrettjackson.com
 1970 Dodge Charger R/T,01/29/2022,132000,USD,USA,barrettjackson.com
-1994 Toyota Supra,07/02/2022,122000,USD,USA,bringatrailer.com
-1994 Toyota Supra,05/29/2022,40050,GBP,Great Britain,collectingcars.com
-1994 Toyota Supra,05/19/2022,140000,USD,USA,mecum.com
-1994 Toyota Supra,05/08/2022,98500,USD,USA,bringatrailer.com
-1994 Toyota Supra,05/01/2022,72000,CAD,Canada,bringatrailer.com
 1970 Dodge Charger R/T,09/04/2021,89600,USD,USA,worldwideauctioneers.com
 1970 Dodge Charger R/T,09/04/2021,62150,USD,USA,rmsothebys.com
 1970 Dodge Charger R/T,07/31/2021,82500,USD,USA,mecum.com
@@ -84,43 +125,132 @@ Car,Sale Date,Sale Amount,Currency unit,Sold Location,Source
 1970 Dodge Charger R/T,01/19/2014,58300,USD,USA,barrettjackson.com
 1970 Dodge Charger R/T,01/15/2014,55000,USD,USA,barrettjackson.com
 1970 Dodge Charger R/T,01/15/2014,52930,USD,USA,russoandsteele.com
-1996 Nissan Skyline (R33) GT-R,02/08/2022,46000,Euro,Ireland,collectingcars.com
-1996 Nissan Skyline (R33) GT-R,05/22/2021,60750,GBP,Great Britain,silverstoneauctions.com
-1996 Nissan Skyline (R33) GT-R,03/04/2017,18112,GBP,Great Britain,historics.co.uk
-1995 Nissan Skyline (R33) GT-R,02/08/2022,105000,USD,USA,bringatrailer.com
-1995 Nissan Skyline (R33) GT-R,02/04/2022,54500,CAD,Canada,formulaauctions.com
-1995 Nissan Skyline (R33) GT-R,01/21/2022,53133,USD,USA,bringatrailer.com
-1995 Nissan Skyline (R33) GT-R,01/14/2022,59033,USD,USA,bringatrailer.com
-1995 Nissan Skyline (R33) GT-R,12/30/2021,51250,USD,USA,bringatrailer.com
-1995 Nissan Skyline (R33) GT-R,12/15/2021,75000,USD,USA,bringatrailer.com
-1995 Nissan Skyline (R33) GT-R,12/08/2021,68500,USD,USA,bringatrailer.com
-1995 Nissan Skyline (R33) GT-R,11/13/2021,43875,GBP,Great Britain,silverstoneauctions.com
-1995 Nissan Skyline (R33) GT-R,08/24/2021,61000,AUD,Australia,collectingcars.com
-1995 Nissan Skyline (R33) GT-R,08/14/2021,235000,USD,USA,rmsothebys.com
-1995 Nissan Skyline (R33) GT-R,06/18/2021,62000,AUD,Australia,collectingcars.com
-1995 Nissan Skyline (R33) GT-R,05/20/2021,66000,USD,USA,mecum.com
-1995 Nissan Skyline (R33) GT-R,05/18/2021,64500,USD,USA,bringatrailer.com
-1995 Nissan Skyline (R33) GT-R,05/11/2021,37750,USD,USA,bringatrailer.com
-1995 Nissan Skyline (R33) GT-R,05/04/2021,52500,USD,USA,bringatrailer.com
-1995 Nissan Skyline (R33) GT-R,04/03/2021,62000,USD,Japan,classic.com
-1995 Nissan Skyline (R33) GT-R,03/12/2021,59000,USD,USA,bringatrailer.com
-1995 Nissan Skyline (R33) GT-R,01/09/2021,88000,USD,USA,mecum.com
-1994 Toyota Supra,02/16/2022,32250,GBP,Great Britain,themarket.bonhams.com
-1994 Toyota Supra,10/20/2021,44500,GBP,Great Britain,collectingcars.com
+1971 Chevrolet Monte Carlo,07/27/2022,26500,USD,USA,mecum.com
+1971 Chevrolet Monte Carlo,07/22/2022,31000,USD,USA,gaaclassiccars.com
+1971 Chevrolet Monte Carlo,03/10/2022,29000,USD,USA,gatewayclassiccars.com
+1971 Chevrolet Monte Carlo,01/26/2022,50600,USD,USA,barrettjackson.com
+1971 Chevrolet Monte Carlo,07/30/2021,30800,USD,USA,mecum.com
+1971 Chevrolet Monte Carlo,10/23/2020,29700,USD,USA,barrettjackson.com
+1971 Chevrolet Monte Carlo,03/12/2020,33000,USD,USA,mecum.com
+1971 Chevrolet Monte Carlo,10/11/2019,24200,USD,USA,mecum.com
+1971 Chevrolet Monte Carlo,06/28/2019,19800,USD,USA,barrettjackson.com
+1971 Chevrolet Monte Carlo,05/19/2018,11000,USD,USA,mecum.com
+1971 Chevrolet Monte Carlo,01/09/2018,37400,USD,USA,mecum.com
+1971 Chevrolet Monte Carlo,08/04/2017,15000,USD,USA,mecum.com
+1971 Chevrolet Monte Carlo,08/03/2017,12000,USD,USA,mecum.com
+1971 Chevrolet Monte Carlo,09/17/2015,10000,USD,USA,mecum.com
+1971 Chevrolet Monte Carlo,04/10/2015,18000,USD,USA,mecum.com
+1971 Chevrolet Monte Carlo,09/03/2014,9500,USD,USA,mecum.com
+1971 Chevrolet Monte Carlo,08/31/2014,8800,USD,USA,rmsothebys.com
+1971 Jensen Interceptor,05/28/2022,51187,GBP,Great Britain,silverstoneauctions.com
+1971 Jensen Interceptor,12/14/2021,51505,USD,USA,bringatrailer.com
+1971 Jensen Interceptor,04/20/2021,33250,USD,USA,bringatrailer.com
+1971 Jensen Interceptor,10/23/2020,53760,USD,USA,rmsothebys.com
+1971 Jensen Interceptor,01/28/2020,29500,USD,USA,bringatrailer.com
+1971 Jensen Interceptor,02/13/2017,20000,USD,USA,bringatrailer.com
+1971 Jensen Interceptor,12/12/2016,10600,USD,USA,bringatrailer.com
+1971 Nissan Skyline GT-R,01/16/2022,129000,USD,USA,bringatrailer.com
+1971 Nissan Skyline GT-R,08/23/2021,95959,USD,USA,bringatrailer.com
+1971 Nissan Skyline GT-R,02/04/2019,63500,USD,USA,bringatrailer.com
+1971 Nissan Skyline GT-R,08/23/2018,75900,USD,USA,mecum.com
+1971 Nissan Skyline GT-R,01/23/2017,126000,USD,USA,bringatrailer.com
+1972 Ford Gran Torino Sport,07/08/2022,29000,USD,USA,gatewayclassiccars.com
+1972 Ford Gran Torino Sport,04/25/2022,8900,USD,USA,allcollectorcars.com
+1972 Ford Gran Torino Sport,04/08/2021,30800,USD,USA,mecum.com
+1972 Ford Gran Torino Sport,08/03/2019,27500,USD,USA,mecum.com
+1972 Ford Gran Torino Sport,09/25/2018,47500,USD,USA,bringatrailer.com
+1972 Ford Gran Torino Sport,10/15/2016,84700,USD,USA,barrettjackson.com
+1972 Ford Gran Torino Sport,08/19/2016,24500,USD,USA,mecum.com
+1972 Ford Gran Torino Sport,01/27/2016,29700,USD,USA,russoandsteele.com
+1972 Ford Gran Torino Sport,07/30/2015,37000,USD,USA,mecum.com
+1972 Ford Gran Torino Sport,08/31/2014,19800,USD,USA,rmsothebys.com
+1972 Ford Gran Torino Sport,06/19/2014,16500,USD,USA,russoandsteele.com
+1973 Chevrolet Camaro RS Z28,01/07/2022,55000,USD,USA,mecum.com
+1973 Chevrolet Camaro RS Z28,05/21/2021,47300,USD,USA,mecum.com
+1973 Chevrolet Camaro RS Z28,10/30/2020,29700,USD,USA,mecum.com
+1973 Chevrolet Camaro RS Z28,01/17/2020,50600,USD,USA,barrettjackson.com
+1973 Chevrolet Camaro RS Z28,01/16/2020,44000,USD,USA,barrettjackson.com
+1973 Chevrolet Camaro RS Z28,09/20/2019,36500,USD,USA,bringatrailer.com
+1973 Chevrolet Camaro RS Z28,04/08/2016,41800,USD,USA,barrettjackson.com
+1973 Chevrolet Camaro RS Z28,10/11/2014,22500,USD,USA,mecum.com
+1993 Toyota Supra Turbo MK IV,05/30/2022,97000,USD,USA,bringatrailer.com
+1993 Toyota Supra Turbo MK IV,03/25/2022,176000,USD,USA,rmsothebys.com
+1993 Toyota Supra Turbo MK IV,09/18/2021,110000,USD,USA,barrettjackson.com
+1993 Toyota Supra Turbo MK IV,03/28/2021,47250,GBP,Great Britain,silverstoneauctions.com
+1993 Toyota Supra Turbo MK IV,03/02/2021,73000,USD,USA,bringatrailer.com
+1993 Toyota Supra Turbo MK IV,10/24/2020,68200,USD,USA,barrettjackson.com
+1993 Toyota Supra Turbo MK IV,03/06/2020,137200,USD,USA,rmsothebys.com
+1993 Toyota Supra Turbo MK IV,02/10/2020,62493,USD,USA,bringatrailer.com
+1993 Toyota Supra Turbo MK IV,12/11/2019,59000,USD,USA,bringatrailer.com
+1993 Toyota Supra Turbo MK IV,12/04/2019,49000,USD,USA,bringatrailer.com
+1993 Toyota Supra Turbo MK IV,08/16/2019,89600,USD,USA,bonhams.com
+1993 Toyota Supra Turbo MK IV,06/21/2019,57500,USD,USA,bringatrailer.com
+1993 Toyota Supra Turbo MK IV,06/14/2019,55500,USD,USA,bringatrailer.com
+1993 Toyota Supra Turbo MK IV,04/04/2019,128000,USD,USA,bringatrailer.com
+1993 Toyota Supra Turbo MK IV,12/07/2018,43750,USD,USA,bringatrailer.com
+1993 Toyota Supra Turbo MK IV,06/28/2018,80700,USD,USA,bringatrailer.com
+1993 Toyota Supra Turbo MK IV,03/21/2018,40999,USD,USA,bringatrailer.com
+1994 Acura Integra,05/21/2022,20000,USD,USA,bringatrailer.com
+1994 Acura Integra,03/13/2022,15250,USD,USA,carsandbids.com
+1994 Acura Integra,08/05/2021,5200,USD,USA,carsandbids.com
+1994 Acura Integra,01/14/2021,6500,USD,USA,bringatrailer.com
+1994 Acura Integra,10/19/2018,7400,USD,USA,bringatrailer.com
+1994 Acura Integra,02/09/2018,12500,USD,USA,bringatrailer.com
+1994 Acura Integra,12/15/2017,8002,USD,USA,bringatrailer.com
+1994 Toyota Supra MK IV,07/02/2022,122000,USD,USA,bringatrailer.com
+1994 Toyota Supra MK IV,05/29/2022,40050,GBP,Great Britain,collectingcars.com
+1994 Toyota Supra MK IV,05/19/2022,140000,USD,USA,mecum.com
+1994 Toyota Supra MK IV,05/08/2022,98500,USD,USA,bringatrailer.com
+1994 Toyota Supra MK IV,05/01/2022,72000,CAD,Canada,bringatrailer.com
+1994 Toyota Supra MK IV,02/16/2022,32250,GBP,Great Britain,themarket.bonhams.com
+1994 Toyota Supra MK IV,10/20/2021,44500,GBP,Great Britain,collectingcars.com
+1994 Toyota Supra MK IV,01/18/2020,85800,USD,USA,barrettjackson.com
+1994 Toyota Supra MK IV,12/15/2020,71000,USD,USA,bringatrailer.com
+1994 Toyota Supra MK IV,11/27/2020,66500,USD,USA,bringatrailer.com
+1994 Toyota Supra MK IV,11/19/2019,76000,USD,USA,bringatrailer.com
+1994 Toyota Supra MK IV,06/01/2019,53000,USD,USA,rmsothebys.com
+1994 Toyota Supra MK IV,04/13/2018,50600,USD,USA,barrettjackson.com
+1994 Toyota Supra MK IV,09/04/2016,68200,USD,USA,rmsothebys.com
+1994 Toyota Supra MK IV,01/26/2016,31350,USD,USA,barrettjackson.com
 1994 Toyota Supra Fast and Furious Car,06/19/2021,550000,USD,USA,barrettjackson.com
-1994 Toyota Supra,01/18/2020,85800,USD,USA,barrettjackson.com
-1994 Toyota Supra,12/15/2020,71000,USD,USA,bringatrailer.com
-1994 Toyota Supra,11/27/2020,66500,USD,USA,bringatrailer.com
-1994 Toyota Supra,11/19/2019,76000,USD,USA,bringatrailer.com
-1994 Toyota Supra,06/01/2019,53000,USD,USA,rmsothebys.com
-1994 Toyota Supra,04/13/2018,50600,USD,USA,barrettjackson.com
-1994 Toyota Supra,09/04/2016,68200,USD,USA,rmsothebys.com
-1994 Toyota Supra,01/26/2016,31350,USD,USA,barrettjackson.com
-1995 Mitsubishi Eclipse Fast and Furious,01/14/2022,155000,USD,USA,mecum.com
+1995  Volkswagen Jetta,01/26/2021,5350,USD,USA,carsandbids.com
 1995 Mitsubishi Eclipse,06/28/2017,1600,USD,USA,bringatrailer.com
 1995 Mitsubishi Eclipse,06/02/2022,34200,USD,USA,bringatrailer.com
+1995 Mitsubishi Eclipse Fast and Furious,01/14/2022,155000,USD,USA,mecum.com
+1995 Nissan Skyline GT-R R33,05/13/2022,58000,USD,USA,bringatrailer.com
+1995 Nissan Skyline GT-R R33,04/21/2022,49995,USD,USA,carsandbids.com
+1995 Nissan Skyline GT-R R33,03/29/2022,83500,USD,USA,bringatrailer.com
+1995 Nissan Skyline GT-R R33,02/08/2022,105000,USD,USA,bringatrailer.com
+1995 Nissan Skyline GT-R R33,02/04/2022,54500,CAD,Canada,formulaauctions.com
+1995 Nissan Skyline GT-R R33,01/21/2022,53133,USD,USA,bringatrailer.com
+1995 Nissan Skyline GT-R R33,01/14/2022,59033,USD,USA,bringatrailer.com
+1995 Nissan Skyline GT-R R33,12/30/2021,51250,USD,USA,bringatrailer.com
+1995 Nissan Skyline GT-R R33,12/15/2021,75000,USD,USA,bringatrailer.com
+1995 Nissan Skyline GT-R R33,12/08/2021,68500,USD,USA,bringatrailer.com
+1995 Nissan Skyline GT-R R33,11/13/2021,43875,GBP,Great Britain,silverstoneauctions.com
+1995 Nissan Skyline GT-R R33,08/24/2021,61000,AUD,Australia,collectingcars.com
+1995 Nissan Skyline GT-R R33,08/14/2021,235000,USD,USA,rmsothebys.com
+1995 Nissan Skyline GT-R R33,06/18/2021,62000,AUD,Australia,collectingcars.com
+1995 Nissan Skyline GT-R R33,05/20/2021,66000,USD,USA,mecum.com
+1995 Nissan Skyline GT-R R33,05/18/2021,64500,USD,USA,bringatrailer.com
+1995 Nissan Skyline GT-R R33,05/11/2021,37750,USD,USA,bringatrailer.com
+1995 Nissan Skyline GT-R R33,05/04/2021,52500,USD,USA,bringatrailer.com
+1995 Nissan Skyline GT-R R33,04/03/2021,62000,USD,Japan,classic.com
+1995 Nissan Skyline GT-R R33,03/12/2021,59000,USD,USA,bringatrailer.com
+1995 Nissan Skyline GT-R R33,01/09/2021,88000,USD,USA,mecum.com
 1995 Volkswagen Jetta Fast and Furious,01/21/2016,46200,USD,USA,barrettjackson.com
-1995  Volkswagen Jetta,01/26/2021,5350,USD,USA,carsandbids.com
+1996 Nissan Skyline GT-R R33,05/10/2022,140000,GBP,Great Britain,collectingcars.com
+1996 Nissan Skyline GT-R R33,01/26/2022,221500,AUD,Australia,collectingcars.com
+1996 Nissan Skyline GT-R R33,10/21/2021,100000,GBP,Great Britain,collectingcars.com
+1996 Nissan Skyline GT-R R33,07/13/2021,310000,USD,USA,bringatrailer.com
+1996 Nissan Skyline GT-R R33,06/22/2021,315187,USD,USA,bringatrailer.com
+1996 Nissan Skyline GT-R R33,11/11/2017,29000,GBP,Great Britain,silverstoneauctions.com
+1996 Nissan Skyline GT-R R33,09/06/2017,25300,GBP,Great Britain,rmsothebys.com
+1996 Nissan Skyline GT-R R33,06/29/2022,63500,AUD,Australia,collectingcars.com
+1996 Nissan Skyline GT-R R33,05/01/2022,57500,USD,USA,bringatrailer.com
+1996 Nissan Skyline GT-R R33,02/08/2022,46000,Euro,Ireland,collectingcars.com
+1996 Nissan Skyline GT-R R33,05/22/2021,60750,GBP,Great Britain,silverstoneauctions.com
+1996 Nissan Skyline GT-R R33,03/04/2017,18112,GBP,Great Britain,historics.co.uk
 2000 Honda S2000,07/09/2022,23250,USD,USA,bringatrailer.com
 2000 Honda S2000,07/07/2022,33750,USD,USA,bringatrailer.com
 2000 Honda S2000,06/17/2022,28550,USD,USA,bringatrailer.com
@@ -147,59 +277,17 @@ Car,Sale Date,Sale Amount,Currency unit,Sold Location,Source
 2000 Honda S2000,05/24/2017,9375,USD,USA,bringatrailer.com
 2000 Honda S2000,01/31/2017,19000,USD,USA,bringatrailer.com
 2000 Honda S2000,09/02/2015,22000,USD,USA,bringatrailer.com
-1994 Acura Integra GS-R,05/21/2022,20000,USD,USA,bringatrailer.com
-1994 Acura Integra GS-R,03/13/2022,15250,USD,USA,carsandbids.com
-1994 Acura Integra GS-R,08/05/2021,5200,USD,USA,carsandbids.com
-1994 Acura Integra GS-R,01/14/2021,6500,USD,USA,bringatrailer.com
-1994 Acura Integra GS-R,10/19/2018,7400,USD,USA,bringatrailer.com
-1994 Acura Integra GS-R,02/09/2018,12500,USD,USA,bringatrailer.com
-1994 Acura Integra GS-R,12/15/2017,8002,USD,USA,bringatrailer.com
-1969 Chevrolet Yenko Camaro,01/16/2021,308000,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,01/15/2021,308000,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,03/13/2020,173250,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,01/10/2020,165000,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,08/03/2019,258500,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,03/15/2019,231000,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,01/11/2019,220000,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,10/27/2018,192500,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,08/23/2018,165000,USD,USA,worldwideauctioneers.com
-1969 Chevrolet Yenko Camaro,04/07/2018,99000,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,09/09/2017,175000,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,05/19/2017,330000,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,05/19/2017,212500,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,08/19/2016,280000,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,05/21/2016,260000,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,05/21/2016,225000,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,06/30/2016,330000,USD,USA,barrettjackson.com
-1969 Chevrolet Yenko Camaro,01/22/2016,330000,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,01/22/2016,225000,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,01/22/2016,300000,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,04/24/2015,209000,USD,USA,worldwideauctioneers.com
-1969 Chevrolet Yenko Camaro,01/17/2015,264000,USD,USA,barrettjackson.com
-1969 Chevrolet Yenko Camaro,09/06/2014,285000,USD,USA,mecum.com
-1969 Chevrolet Yenko Camaro,01/25/2014,235000,USD,USA,mecum.com
-1993 Toyota Supra,05/30/2022,97000,USD,USA,bringatrailer.com
-1993 Toyota Supra,03/25/2022,176000,USD,USA,rmsothebys.com
-1993 Toyota Supra,09/18/2021,110000,USD,USA,barrettjackson.com
-1993 Toyota Supra,03/28/2021,47250,GBP,Great Britain,silverstoneauctions.com
-1993 Toyota Supra,03/02/2021,73000,USD,USA,bringatrailer.com
-1993 Toyota Supra,10/24/2020,68200,USD,USA,barrettjackson.com
-1993 Toyota Supra,03/06/2020,137200,USD,USA,rmsothebys.com
-1993 Toyota Supra,02/10/2020,62493,USD,USA,bringatrailer.com
-1993 Toyota Supra,12/11/2019,59000,USD,USA,bringatrailer.com
-1993 Toyota Supra,12/04/2019,49000,USD,USA,bringatrailer.com
-1993 Toyota Supra,08/16/2019,89600,USD,USA,bonhams.com
-1993 Toyota Supra,06/21/2019,57500,USD,USA,bringatrailer.com
-1993 Toyota Supra,06/14/2019,55500,USD,USA,bringatrailer.com
-1993 Toyota Supra,04/04/2019,128000,USD,USA,bringatrailer.com
-1993 Toyota Supra,12/07/2018,43750,USD,USA,bringatrailer.com
-1993 Toyota Supra,06/28/2018,80700,USD,USA,bringatrailer.com
-1993 Toyota Supra,03/21/2018,40999,USD,USA,bringatrailer.com
-2002 Mitsubishi Lancer Evo VII,12/08/2021,19000,AUD,Australia,collectingcars.com
-2002 Mitsubishi Lancer Evo VII,07/30/2021,22050,GBP,Great Britain,collectingcars.com
-2002 Mitsubishi Lancer Evo VII,06/27/2020,14300,GBP,Great Britain,classiccarauctions.co.uk
-2003 Mitsubishi Eclipse,02/02/2020,2420,USD,USA,mecum.com
-2003 Mitsubishi Eclipse,06/06/2022,415,USD,USA,eBay.com
+2001 BMW 540i E39,06/25/2022,14000,USD,USA,bringatrailer.com
+2001 BMW 540i E39,05/08/2022,21000,USD,USA,bringatrailer.com
+2001 BMW 540i E39,04/12/2022,6800,USD,USA,carsandbids.com
+2001 BMW 540i E39,12/01/2021,6500,USD,USA,carsandbids.com
+2001 BMW 540i E39,10/26/2021,7200,USD,USA,carsandbids.com
+2001 BMW 540i E39,11/05/2020,4300,USD,USA,carsandbids.com
+2001 BMW 540i E39,10/28/2020,9200,USD,USA,carsandbids.com
+2001 BMW 540i E39,03/14/2018,11355,USD,USA,bringatrailer.com
+2001 BMW 540i E39,11/24/2017,7500,USD,USA,bringatrailer.com
+2001 BMW 540i E39,12/19/2016,10000,USD,USA,bringatrailer.com
+2001 BMW 540i E39,09/26/2016,9100,USD,USA,bringatrailer.com
 2001 Honda S2000,08/05/2022,35250,USD,USA,bringatrailer.com
 2001 Honda S2000,07/26/2022,33500,USD,USA,bringatrailer.com
 2001 Honda S2000,07/21/2022,40000,USD,USA,bringatrailer.com
@@ -224,101 +312,13 @@ Car,Sale Date,Sale Amount,Currency unit,Sold Location,Source
 2001 Honda S2000,09/04/2016,13700,USD,USA,rmsothebys.com
 2001 Honda S2000,07/06/2016,29388,USD,USA,bringatrailer.com
 2001 Honda S2000,10/01/2015,17500,USD,USA,bringatrailer.com
-1967 Ford Mustang Fastback,07/29/2022,63000,USD,USA,mecum.com
-1967 Ford Mustang Fastback,07/29/2022,79000,USD,USA,mecum.com
-1967 Ford Mustang Fastback,03/25/2021,66000,USD,USA,barrettjackson.com
-1967 Ford Mustang Fastback,01/28/2021,55000,USD,USA,bringatrailer.com
-1967 Ford Mustang Fastback,05/16/2021,75900,USD,USA,mecum.com
-1967 Ford Mustang Fastback,11/19/2020,47500,USD,USA,bringatrailer.com
-1967 Ford Mustang Fastback,11/14/2020,148500,USD,USA,bringatrailer.com
-1967 Ford Mustang Fastback,10/17/2020,46200,USD,USA,mecum.com
-1967 Ford Mustang Fastback,08/03/2019,66000,USD,USA,mecum.com
-1967 Ford Mustang Fastback,07/01/2019,34500,USD,USA,bringatrailer.com
-1967 Ford Mustang Fastback,05/17/2019,95700,USD,USA,mecum.com
-1967 Ford Mustang Fastback,09/28/2018,52800,USD,USA,barrettjackson.com
-1967 Ford Mustang Fastback,09/02/2018,56100,USD,USA,rmsothebys.com
-1967 Ford Mustang Fastback,08/04/2018,39600,USD,USA,mecum.com
-1967 Ford Mustang Fastback,07/22/2017,41000,USD,USA,gaaclassiccars.com
-1967 Ford Mustang Fastback,07/20/2017,27500,USD,USA,bringatrailer.com
-1967 Ford Mustang Fastback,06/24/2017,79200,USD,USA,barrettjackson.com
-1967 Ford Mustang Fastback,10/14/2016,61600,USD,USA,gaaclassiccars.com
-1967 Ford Mustang Fastback,05/20/2016,36000,USD,USA,mecum.com
-1967 Ford Mustang Fastback,05/17/2014,50000,USD,USA,mecum.com
-1967 Ford Mustang Fastback,05/15/2014,28500,USD,USA,mecum.com
-1967 Ford Mustang Fastback,04/13/2014,35200,USD,USA,barrettjackson.com
-1967 Ford Mustang Fastback,04/17/2015,50600,USD,USA,barrettjackson.com
-1971 Chevrolet Monte Carlo,07/27/2022,26500,USD,USA,mecum.com
-1971 Chevrolet Monte Carlo,07/22/2022,31000,USD,USA,gaaclassiccars.com
-1971 Chevrolet Monte Carlo,03/10/2022,29000,USD,USA,gatewayclassiccars.com
-1971 Chevrolet Monte Carlo,01/26/2022,50600,USD,USA,barrettjackson.com
-1971 Chevrolet Monte Carlo,07/30/2021,30800,USD,USA,mecum.com
-1971 Chevrolet Monte Carlo,10/23/2020,29700,USD,USA,barrettjackson.com
-1971 Chevrolet Monte Carlo,03/12/2020,33000,USD,USA,mecum.com
-1971 Chevrolet Monte Carlo,10/11/2019,24200,USD,USA,mecum.com
-1971 Chevrolet Monte Carlo,06/28/2019,19800,USD,USA,barrettjackson.com
-1971 Chevrolet Monte Carlo,05/19/2018,11000,USD,USA,mecum.com
-1971 Chevrolet Monte Carlo,01/09/2018,37400,USD,USA,mecum.com
-1971 Chevrolet Monte Carlo,08/04/2017,15000,USD,USA,mecum.com
-1971 Chevrolet Monte Carlo,08/03/2017,12000,USD,USA,mecum.com
-1971 Chevrolet Monte Carlo,09/17/2015,10000,USD,USA,mecum.com
-1971 Chevrolet Monte Carlo,04/10/2015,18000,USD,USA,mecum.com
-1971 Chevrolet Monte Carlo,09/03/2014,9500,USD,USA,mecum.com
-1971 Chevrolet Monte Carlo,08/31/2014,8800,USD,USA,rmsothebys.com
-2001 Nissan Silvia S15,10/18/2021,42009,AUD,Australia,collectingcars.com
-1972 Ford Gran Torino Sport,07/08/2022,29000,USD,USA,gatewayclassiccars.com
-1972 Ford Gran Torino Sport,04/25/2022,8900,USD,USA,allcollectorcars.com
-1972 Ford Gran Torino Sport,04/08/2021,30800,USD,USA,mecum.com
-1972 Ford Gran Torino Sport,08/03/2019,27500,USD,USA,mecum.com
-1972 Ford Gran Torino Sport,09/25/2018,47500,USD,USA,bringatrailer.com
-1972 Ford Gran Torino Sport,10/15/2016,84700,USD,USA,barrettjackson.com
-1972 Ford Gran Torino Sport,08/19/2016,24500,USD,USA,mecum.com
-1972 Ford Gran Torino Sport,01/27/2016,29700,USD,USA,russoandsteele.com
-1972 Ford Gran Torino Sport,07/30/2015,37000,USD,USA,mecum.com
-1972 Ford Gran Torino Sport,08/31/2014,19800,USD,USA,rmsothebys.com
-1972 Ford Gran Torino Sport,06/19/2014,16500,USD,USA,russoandsteele.com
-1973 Chevrolet Camaro RS Z28,01/07/2022,55000,USD,USA,mecum.com
-1973 Chevrolet Camaro RS Z28,05/21/2021,47300,USD,USA,mecum.com
-1973 Chevrolet Camaro RS Z28,10/30/2020,29700,USD,USA,mecum.com
-1973 Chevrolet Camaro RS Z28,01/17/2020,50600,USD,USA,barrettjackson.com
-1973 Chevrolet Camaro RS Z28,01/16/2020,44000,USD,USA,barrettjackson.com
-1973 Chevrolet Camaro RS Z28,09/20/2019,36500,USD,USA,bringatrailer.com
-1973 Chevrolet Camaro RS Z28,04/08/2016,41800,USD,USA,barrettjackson.com
-1973 Chevrolet Camaro RS Z28,10/11/2014,22500,USD,USA,mecum.com
-2001 BMW 540i,06/25/2022,14000,USD,USA,bringatrailer.com
-2001 BMW 540i,05/08/2022,21000,USD,USA,bringatrailer.com
-2001 BMW 540i,04/12/2022,6800,USD,USA,carsandbids.com
-2001 BMW 540i,12/01/2021,6500,USD,USA,carsandbids.com
-2001 BMW 540i,10/26/2021,7200,USD,USA,carsandbids.com
-2001 BMW 540i,11/05/2020,4300,USD,USA,carsandbids.com
-2001 BMW 540i,10/28/2020,9200,USD,USA,carsandbids.com
-2001 BMW 540i,03/14/2018,11355,USD,USA,bringatrailer.com
-2001 BMW 540i,11/24/2017,7500,USD,USA,bringatrailer.com
-2001 BMW 540i,12/19/2016,10000,USD,USA,bringatrailer.com
-2001 BMW 540i,09/26/2016,9100,USD,USA,bringatrailer.com
-2009 Subaru Impreza WRX STI,04/28/2022,20500,USD,USA,carsandbids.com
-2009 Subaru Impreza WRX STI,05/31/2021,13500,GBP,Great Britain,collectingcars.com
-2009 Subaru Impreza WRX STI,11/16/2017,18500,USD,USA,mecum.com
-1966 Chevrolet Corvette Stingray,07/23/2022,106000,USD,USA,gaaclassiccars.com
-1966 Chevrolet Corvette Stingray,03/12/2015,82500,USD,USA,rmsothebys.com
-2012 Gurkha Armored Vehicle,11/16/2018,198000,USD,USA,mecum.com
-1965 Ford GT40,08/16/2019,7650000,USD,USA,rmsothebys.com
-1965 Ford GT40,08/16/2014,6930000,USD,USA,rmsothebys.com
-1965 Ford GT40 Replica,01/29/2022,209000,USD,USA,barrettjackson.com
-1965 Ford GT40 Replica,11/15/2014,100000,USD,USA,mecum.com
-1969 Ford Mustang Fastback,07/30/2022,100000,USD,USA,mecum.com
-1969 Ford Mustang Fastback,08/19/2011,19000,USD,USA,mecum.com
-1969 Ford Mustang Fastback,01/08/2020,41800,USD,USA,mecum.com
-1969 Ford Mustang Fastback,04/13/2018,84700,USD,USA,barrettjackson.com
-1969 Ford Mustang Fastback,12/03/2016,67000,USD,USA,mecum.com
-1969 Ford Mustang Fastback,01/15/2015,40700,USD,USA,barrettjackson.com
-1971 Jensen Interceptor,05/28/2022,51187,GBP,Great Britain,silverstoneauctions.com
-1971 Jensen Interceptor,12/14/2021,51505,USD,USA,bringatrailer.com
-1971 Jensen Interceptor,04/20/2021,33250,USD,USA,bringatrailer.com
-1971 Jensen Interceptor,10/23/2020,53760,USD,USA,rmsothebys.com
-1971 Jensen Interceptor,01/28/2020,29500,USD,USA,bringatrailer.com
-1971 Jensen Interceptor,02/13/2017,20000,USD,USA,bringatrailer.com
-1971 Jensen Interceptor,12/12/2016,10600,USD,USA,bringatrailer.com
-1969 Dodge Charger Daytona,05/26/2021,245000,USD,USA,rmsothebys.com
-1969 Dodge Charger Daytona,03/27/2021,236500,USD,USA,barrettjackson.com
-1969 Dodge Charger Daytona,01/17/2018,198000,USD,USA,russoandsteele.com
-1969 Dodge Charger Daytona,01/27/2016,159500,USD,USA,russoandsteele.com
+2001 Nissan Silvia S15 Spec-S,10/18/2021,42009,AUD,Australia,collectingcars.com
+2002 Mitsubishi Lancer Evo VII,12/08/2021,19000,AUD,Australia,collectingcars.com
+2002 Mitsubishi Lancer Evo VII,07/30/2021,22050,GBP,Great Britain,collectingcars.com
+2002 Mitsubishi Lancer Evo VII,06/27/2020,14300,GBP,Great Britain,classiccarauctions.co.uk
+2003 Mitsubishi Eclipse Spyder GTS,02/02/2020,2420,USD,USA,mecum.com
+2003 Mitsubishi Eclipse Spyder GTS,06/06/2022,415,USD,USA,eBay.com
+2009 Subaru Impreza WRX STi,04/28/2022,20500,USD,USA,carsandbids.com
+2009 Subaru Impreza WRX STi,05/31/2021,13500,GBP,Great Britain,collectingcars.com
+2009 Subaru Impreza WRX STi,11/16/2017,18500,USD,USA,mecum.com
+2012 Gurkha LAPV Armored Vehicle,11/16/2018,198000,USD,USA,mecum.com

@@ -8,7 +8,7 @@ car_sales = pd.read_csv('car_sales_clean.csv')
 app = Dash(__name__)
 
 app.layout = html.Div([
-    html.H4('Fast & Furious Car Sales'),
+    html.H1('Fast & Furious Car Sales'),
     dcc.Graph(id="scatter-plot"),
     html.P("Filter by sales Price:"),
     dcc.RangeSlider(
