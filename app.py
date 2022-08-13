@@ -92,8 +92,8 @@ app.layout = html.Div([
             ], className="three columns number-stat-box"),
 
             html.Div(children=[
-                html.H3(id='no_veh', style={'fontWeight': 'bold', 'color': '#00aeef'}),
-                html.Label('Total vehicles', style={'paddingTop': '.3rem'}),
+                html.H3(id='avg_year', style={'fontWeight': 'bold', 'color': '#00aeef'}),
+                html.Label('Average Car Model year', style={'paddingTop': '.3rem'}),
             ], className="three columns number-stat-box"),
 
             html.Div(children=[
@@ -126,7 +126,7 @@ app.layout = html.Div([
 @app.callback(
     [Output(component_id='tot_cars', component_property='children'),
      Output('maj_or_min', 'children'),
-     Output('no_veh', 'children'),
+     Output('avg_year', 'children'),
      Output('no_days', 'children'),
      ],
     Input('input_movie', 'value'))
@@ -137,7 +137,7 @@ def update_statistics(input_movie):
     minor = df_update.Role.str.contains('Minor').sum()
     #yr_avg = df_update['Year'].average()
 
-    return len(df_update), f'{maj} / {minor}', 0, 0
+    return len(df_update), f'{maj} / {minor}', round(df_update['Year'].mean(), ndigits=0), 0
     # , sum(df_update['Number_of_Casualties']), sum(df_update['Number_of_Vehicles']), days.days
 
 @app.callback(
