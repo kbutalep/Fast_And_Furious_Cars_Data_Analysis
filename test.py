@@ -12,8 +12,10 @@ input_movie =input('> ')
 def update_statistics(input_movie):
 
     df_update = df[(df['Film Order'].str.contains(input_movie))]
-
+   #maj = df_update[(df_update['Role'].str.contains('Major'))].value_counts()
+    maj = df_update.Role.str.contains('Major').sum()
     print(len(df_update))
-    print(df_update.columns)
+
+    print(maj)
 
 update_statistics(input_movie)

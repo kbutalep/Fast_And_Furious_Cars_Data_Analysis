@@ -82,13 +82,13 @@ app.layout = html.Div([
     html.Div(children=[
         html.Div(children=[
             html.Div(children=[
-                html.H3(id='tot_cars', style={'fontWeight': 'bold'}),  # was no_acc
-                html.Label('Total Cars', style={'paddingTop': '.3rem'}),  # was total accidents
+                html.H3(id='tot_cars', style={'fontWeight': 'bold'}),
+                html.Label('Total Cars', style={'paddingTop': '.3rem'}),
             ], className="three columns number-stat-box"),
 
             html.Div(children=[
-                html.H3(id='no_cas', style={'fontWeight': 'bold', 'color': '#f73600'}),
-                html.Label('Casualties', style={'paddingTop': '.3rem'}),
+                html.H3(id='maj_or_min', style={'fontWeight': 'bold', 'color': '#f73600'}),
+                html.Label('Major vs. Minor Car', style={'paddingTop': '.3rem'}),
             ], className="three columns number-stat-box"),
 
             html.Div(children=[
@@ -104,7 +104,7 @@ app.layout = html.Div([
         ], style={'margin': '1rem', 'display': 'flex', 'justify-content': 'space-between', 'width': '100%',
                   'flex-wrap': 'wrap'}),
 
-        # Line chart for accidents per day
+        # Scatter plot
         html.Div(children=[
             dcc.Graph(id="scatter-plot"),
             html.P("Filter by sales Price:"),
@@ -125,7 +125,7 @@ app.layout = html.Div([
 
 @app.callback(
     [Output(component_id='tot_cars', component_property='children'),
-     Output('no_cas', 'children'),
+     Output('maj_or_min', 'children'),
      Output('no_veh', 'children'),
      Output('no_days', 'children'),
      ],
@@ -133,10 +133,19 @@ app.layout = html.Div([
 def update_statistics(input_movie):
 
     df_update = df[(df['Film Order'].str.contains(input_movie))]
+    maj = df_update.Role.str.contains('Major').sum()
+    minor = df_update.Role.str.contains('Minor').sum()
+    #yr_avg = df_update['Year'].average()
 
-    return len(df_update), sum(df_update['Car Count']), 0, 0
+    return len(df_update), f'{maj} / {minor}', 0, 0
     # , sum(df_update['Number_of_Casualties']), sum(df_update['Number_of_Vehicles']), days.days
 
+@app.callback(
+    Output('pandas-output-container-1', 'children'),
+    Input('pandas-dropdown-1', 'value')
+)
+def update_output(value):
+    return f'You have selected {value}'
 
 ######### Callback for scatter chart ##############################
 @app.callback(
