@@ -11,8 +11,9 @@ input_movie =input('> ')
 
 def update_statistics(input_movie):
 
-    df_update = df[(df['Film Order'].str.contains('FF1'))]
+    df_update = df[(df['Film Order'].str.contains(input_movie))]
 
-    print(df_update)
+    print(len(df_update))
+    print(df_update.columns)
 
 update_statistics(input_movie)

@@ -40,6 +40,9 @@ app.layout = html.Div([
                 value='FF1',
                 multi=False
             ),
+            html.Label('Car', style={'paddingTop': '2rem'}),
+            dcc.Dropdown(df.columns, id='pandas-dropdown-1'),
+                html.Div(id='pandas-output-container-1')
 
             # html.Label('Accident Severity:', style={'paddingTop': '2rem', 'display': 'inline-block'}),
             # dcc.Checklist(
@@ -129,10 +132,9 @@ app.layout = html.Div([
     Input('input_movie', 'value'))
 def update_statistics(input_movie):
 
-    df_update = df[(df['Film Order'].str.contains(str(input_movie)))]
+    df_update = df[(df['Film Order'].str.contains(input_movie))]
 
-
-    return df_update.size(), sum(df_update['Car Count']), 0, 0
+    return len(df_update), sum(df_update['Car Count']), 0, 0
     # , sum(df_update['Number_of_Casualties']), sum(df_update['Number_of_Vehicles']), days.days
 
 
