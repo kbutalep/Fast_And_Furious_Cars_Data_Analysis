@@ -49,31 +49,35 @@ app.layout = html.Div([
                 html.Div(id='pandas-output-container-radio-1'),
 
 
-            html.H3(id='Total Sales', style={'fontWeight': 'bold'}),
-            html.Label('Max Sale Price', style={'paddingTop': '.3rem'}),
+            html.Div(children=[
+                html.H3(id='TEST', style={'fontWeight': 'bold'}),
+                html.Label('TEST', style={'paddingTop': '.3rem'}),
+            ], className="three columns number-stat-box"),
 
-
-
-            html.H3(id='Max Sale Date', style={'fontWeight': 'bold', 'color': '#f73600'}),
-            html.Label('Major vs. Minor Car', style={'paddingTop': '.3rem'}),
+            #  html.Div(children=[
+            #     html.H3(id='maj_or_min', style={'fontWeight': 'bold', 'color': '#f73600'}),
+            #     html.Label('Major vs. Minor Car', style={'paddingTop': '.3rem'}),
+            # ], className="three columns number-stat-box"),
+            #
+            #  html.Div(children=[
+            #       html.H3(id='avg_year', style={'fontWeight': 'bold', 'color': '#00aeef'}),
+            #        html.Label('Average Car Model year', style={'paddingTop': '.3rem'}),
+            # ], className="three columns number-stat-box"),
+            #
+            #         html.Div(children=[
+            #             html.H3(id='avg_sale', style={'fontWeight': 'bold', 'color': '#a0aec0'}),
+            #             html.Label('Average Sale Amount', style={'paddingTop': '.3rem'}),
+            #
+            #         ], className="three columns number-stat-box"),
+            #     ], style={'margin': '1rem', 'display': 'flex', 'justify-content': 'space-between', 'width': '100%',
+            #               'flex-wrap': 'wrap'}),
 
 
         ], className="four columns",
             style={'padding': '2rem', 'margin': '1rem', 'boxShadow': '#e3e3e3 4px 4px 2px', 'border-radius': '10px',
                    'marginTop': '2rem'}),
 
-            # html.Div(children=[
-            #     html.H3(id='Min Sale Price', style={'fontWeight': 'bold', 'color': '#00aeef'}),
-            #     html.Label('Average Car Model year', style={'paddingTop': '.3rem'}),
-            # ], className="four columns"),
-            #
-            # html.Div(children=[
-            #     html.H3(id='Min Sale Date', style={'fontWeight': 'bold', 'color': '#a0aec0'}),
-            #     html.Label('Average Sale Amount', style={'paddingTop': '.3rem'}),
-            #
-            # ], className="four columns",
-            # style={'padding': '2rem', 'margin': '1rem', 'boxShadow': '#e3e3e3 4px 4px 2px', 'border-radius': '10px',
-            #        'marginTop': '2rem'}),
+
 
 
     ##### HERE insert the code for four boxes & graph #########
@@ -121,7 +125,9 @@ app.layout = html.Div([
     ], className="eight columns", style={'backgroundColor': '#f2f2f2', 'margin': '1rem'}),
 
 ]),
-    ])
+])
+
+
 
 ##### Callback for updating stats based on movie selection#####
 @app.callback(
