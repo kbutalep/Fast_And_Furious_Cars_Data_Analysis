@@ -37,7 +37,7 @@ app.layout = html.Div([
                     {'label': 'The Fate of the Furious', 'value': 'FF8'},
                     {'label': 'F9', 'value': 'FF9'}
                 ],
-                value='FF1',
+                value=None,
                 multi=False
             ),
             html.Label('Car', style={'paddingTop': '2rem'}),
@@ -131,14 +131,17 @@ app.layout = html.Div([
      ],
     Input('input_movie', 'value'))
 def update_statistics(input_movie):
+    if input_movie == None:
+        df_update = df
+    else:
+        df_update = df[(df['Film Order'].str.contains(input_movie))]
 
-    df_update = df[(df['Film Order'].str.contains(input_movie))]
     maj = df_update.Role.str.contains('Major').sum()
     minor = df_update.Role.str.contains('Minor').sum()
-    #yr_avg = df_update['Year'].average()
+
 
     return len(df_update), f'{maj} / {minor}', round(df_update['Year'].mean(), ndigits=0), 0
-    # , sum(df_update['Number_of_Casualties']), sum(df_update['Number_of_Vehicles']), days.days
+
 
 @app.callback(
     Output('pandas-output-container-1', 'children'),
