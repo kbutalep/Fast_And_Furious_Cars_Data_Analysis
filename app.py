@@ -97,8 +97,8 @@ app.layout = html.Div([
             ], className="three columns number-stat-box"),
 
             html.Div(children=[
-                html.H3(id='no_days', style={'fontWeight': 'bold', 'color': '#a0aec0'}),
-                html.Label('Number of days', style={'paddingTop': '.3rem'}),
+                html.H3(id='avg_sale', style={'fontWeight': 'bold', 'color': '#a0aec0'}),
+                html.Label('Average Sale Amount', style={'paddingTop': '.3rem'}),
 
             ], className="three columns number-stat-box"),
         ], style={'margin': '1rem', 'display': 'flex', 'justify-content': 'space-between', 'width': '100%',
@@ -127,20 +127,22 @@ app.layout = html.Div([
     [Output(component_id='tot_cars', component_property='children'),
      Output('maj_or_min', 'children'),
      Output('avg_year', 'children'),
-     Output('no_days', 'children'),
+     Output('avg_sale', 'children'),
      ],
     Input('input_movie', 'value'))
 def update_statistics(input_movie):
     if input_movie == None:
         df_update = df
+        avg_car_sale = round(car_sales['Sale Amount'].mean(), ndigits=0)
     else:
         df_update = df[(df['Film Order'].str.contains(input_movie))]
+        avg_car_sale = 0
 
     maj = df_update.Role.str.contains('Major').sum()
     minor = df_update.Role.str.contains('Minor').sum()
 
 
-    return len(df_update), f'{maj} / {minor}', round(df_update['Year'].mean(), ndigits=0), 0
+    return len(df_update), f'{maj} / {minor}', round(df_update['Year'].mean(), ndigits=0), avg_car_sale
 
 
 @app.callback(
