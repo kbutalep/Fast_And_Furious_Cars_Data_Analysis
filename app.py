@@ -25,7 +25,7 @@ app.layout = html.Div([
         html.Div(children=[
             html.Label('Fast & Furious Movie', style={'paddingTop': '2rem'}),
             dcc.Dropdown(
-                id='input_movie',  ###was input_days
+                id='input_movie',
                 options=[
                     {'label': 'The Fast and the Furious', 'value': 'FF1'},
                     {'label': '2 Fast 2 Furious', 'value': 'FF2'},
@@ -41,41 +41,41 @@ app.layout = html.Div([
                 multi=False
             ),
             html.Label('Car', style={'paddingTop': '2rem'}),
-            dcc.Dropdown(df.columns, id='pandas-dropdown-1'),
-                html.Div(id='pandas-output-container-1')
+            dcc.Dropdown(id='car-dropdown', value=df['Car Name']),
+                #html.Div(id='pandas-output-container-1'),
 
-            # html.Label('Accident Severity:', style={'paddingTop': '2rem', 'display': 'inline-block'}),
-            # dcc.Checklist(
-            #     id='input_acc_sev',
-            #     options=[
-            #         {'label': 'Fatal', 'value': '1'},
-            #         {'label': 'Serious', 'value': '2'},
-            #         {'label': 'Slight', 'value': '3'}
-            #     ],
-            #     value=['1', '2', '3'],
-            # ),
-            #
-            # html.Label('Speed limits (mph):', style={'paddingTop': '2rem'}),
-            # dcc.RangeSlider(
-            #         id='input_speed_limit',
-            #         min=20,
-            #         max=70,
-            #         step=10,
-            #         value=[20, 70],
-            #         marks={
-            #             20: '20',
-            #             30: '30',
-            #             40: '40',
-            #             50: '50',
-            #             60: '60',
-            #             70: '70'
-            #         },
-            # ),
+            html.Label('Car Model Year', style={'paddingTop': '2rem'}),
+            dcc.Dropdown(id='year-dropdown-1', options=df.Year.unique()),
+                html.Div(id='pandas-output-container-radio-1'),
+
+
+            html.H3(id='Total Sales', style={'fontWeight': 'bold'}),
+            html.Label('Max Sale Price', style={'paddingTop': '.3rem'}),
+
+
+
+            html.H3(id='Max Sale Date', style={'fontWeight': 'bold', 'color': '#f73600'}),
+            html.Label('Major vs. Minor Car', style={'paddingTop': '.3rem'}),
+
 
         ], className="four columns",
             style={'padding': '2rem', 'margin': '1rem', 'boxShadow': '#e3e3e3 4px 4px 2px', 'border-radius': '10px',
                    'marginTop': '2rem'}),
-    ]),
+
+            # html.Div(children=[
+            #     html.H3(id='Min Sale Price', style={'fontWeight': 'bold', 'color': '#00aeef'}),
+            #     html.Label('Average Car Model year', style={'paddingTop': '.3rem'}),
+            # ], className="four columns"),
+            #
+            # html.Div(children=[
+            #     html.H3(id='Min Sale Date', style={'fontWeight': 'bold', 'color': '#a0aec0'}),
+            #     html.Label('Average Sale Amount', style={'paddingTop': '.3rem'}),
+            #
+            # ], className="four columns",
+            # style={'padding': '2rem', 'margin': '1rem', 'boxShadow': '#e3e3e3 4px 4px 2px', 'border-radius': '10px',
+            #        'marginTop': '2rem'}),
+
+
     ##### HERE insert the code for four boxes & graph #########
     # Number statistics & number of accidents each day
 
@@ -114,43 +114,59 @@ app.layout = html.Div([
                 marks={0: '0', 300000: '300,000'},
                 value=[1, 299999]
             )]
-            , className="twleve columns",
+            , className="twelve columns",
             style={'padding': '.3rem', 'marginTop': '1rem', 'marginLeft': '1rem', 'boxShadow': '#e3e3e3 4px 4px 2px',
                    'border-radius': '10px', 'backgroundColor': 'white', }),
 
     ], className="eight columns", style={'backgroundColor': '#f2f2f2', 'margin': '1rem'}),
 
-])
+]),
+    ])
 
-
+##### Callback for updating stats based on movie selection#####
 @app.callback(
     [Output(component_id='tot_cars', component_property='children'),
      Output('maj_or_min', 'children'),
      Output('avg_year', 'children'),
      Output('avg_sale', 'children'),
+     Output('car-dropdown', 'options')
      ],
     Input('input_movie', 'value'))
 def update_statistics(input_movie):
     if input_movie == None:
         df_update = df
         avg_car_sale = round(car_sales['Sale Amount'].mean(), ndigits=0)
+        car_options = df['Car Name']
     else:
         df_update = df[(df['Film Order'].str.contains(input_movie))]
-        avg_car_sale = 0
+        avg_car_sale = round(df_update['mean'].mean(), ndigits=0)
+        car_options = [{'label': i, 'value': i} for i in df_update['Car Name']]
 
     maj = df_update.Role.str.contains('Major').sum()
     minor = df_update.Role.str.contains('Minor').sum()
 
 
-    return len(df_update), f'{maj} / {minor}', round(df_update['Year'].mean(), ndigits=0), avg_car_sale
+    return len(df_update), f'{maj} vs {minor}', round(df_update['Year'].mean(), ndigits=0), avg_car_sale, car_options
 
-
+#########callback for car dropdown #######
 @app.callback(
-    Output('pandas-output-container-1', 'children'),
-    Input('pandas-dropdown-1', 'value')
+    Output('car-dropdown', 'value'),
+    Output('year-dropdown-1', 'options'),
+    Input('car-dropdown', 'value')
 )
-def update_output(value):
-    return f'You have selected {value}'
+def update_car_output(available_options):
+
+    return available_options[0]['value']
+
+##### callback for  year radio button#######
+@app.callback(
+    Output('year-dropdown-1', 'value'),
+    Input('car-dropdown', 'value'))
+    #Input('year-radio-1', 'value'))
+def set_year_value(car_dropdown):
+    #available_options = df[(df['Make'].str.contains(car_dropdown))]
+    #return available_options[0]['value']
+    return(df[df['Make']==car_dropdown][0].values[0])
 
 ######### Callback for scatter chart ##############################
 @app.callback(
