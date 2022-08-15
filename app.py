@@ -49,36 +49,26 @@ app.layout = html.Div([
                 html.Div(id='pandas-output-container-radio-1'),
 
 
-            html.Div(children=[
-                html.H3(id='TEST', style={'fontWeight': 'bold'}),
-                html.Label('TEST', style={'paddingTop': '.3rem'}),
-            ], className="three columns number-stat-box"),
+            html.H4(id='Total Sales', style={'fontWeight': 'bold'}),
+            html.Label('Total Sales Count', style={'paddingTop': '.3rem'}),
 
-            #  html.Div(children=[
-            #     html.H3(id='maj_or_min', style={'fontWeight': 'bold', 'color': '#f73600'}),
-            #     html.Label('Major vs. Minor Car', style={'paddingTop': '.3rem'}),
-            # ], className="three columns number-stat-box"),
-            #
-            #  html.Div(children=[
-            #       html.H3(id='avg_year', style={'fontWeight': 'bold', 'color': '#00aeef'}),
-            #        html.Label('Average Car Model year', style={'paddingTop': '.3rem'}),
-            # ], className="three columns number-stat-box"),
-            #
-            #         html.Div(children=[
-            #             html.H3(id='avg_sale', style={'fontWeight': 'bold', 'color': '#a0aec0'}),
-            #             html.Label('Average Sale Amount', style={'paddingTop': '.3rem'}),
-            #
-            #         ], className="three columns number-stat-box"),
-            #     ], style={'margin': '1rem', 'display': 'flex', 'justify-content': 'space-between', 'width': '100%',
-            #               'flex-wrap': 'wrap'}),
+            html.H4(id='max_sale', style={'fontWeight': 'bold', 'color': '#f73600'}),
+            html.Label('Maximum Sale Amount', style={'display': 'inline-block', 'paddingTop': '.3rem'}),
+
+            html.H4(id='max_sale_date', style={'fontWeight': 'bold', 'color': '#f73600'}),
+            html.Label('Maximum Sale Date', style={'display': 'inline-block', 'paddingTop': '.3rem'}),
+
+            html.H4(id='min_sale', style={'fontWeight': 'bold', 'color': '#00aeef'}),
+            html.Label('Minimum Sale', style={'display': 'inline-block', 'paddingTop': '.3rem'}),
+
+            html.H4(id='min_sale_date', style={'fontWeight': 'bold', 'color': '#00aeef'}),
+            html.Label('Minimum Sale Date', style={'display': 'inline-block', 'paddingTop': '.3rem'}),
 
 
         ], className="four columns",
             style={'padding': '2rem', 'margin': '1rem', 'boxShadow': '#e3e3e3 4px 4px 2px', 'border-radius': '10px',
                    'marginTop': '2rem'}),
-
-
-
+        ]),
 
     ##### HERE insert the code for four boxes & graph #########
     # Number statistics & number of accidents each day
@@ -124,8 +114,8 @@ app.layout = html.Div([
 
     ], className="eight columns", style={'backgroundColor': '#f2f2f2', 'margin': '1rem'}),
 
-]),
 ])
+
 
 
 
@@ -151,18 +141,44 @@ def update_statistics(input_movie):
     maj = df_update.Role.str.contains('Major').sum()
     minor = df_update.Role.str.contains('Minor').sum()
 
-
     return len(df_update), f'{maj} vs {minor}', round(df_update['Year'].mean(), ndigits=0), avg_car_sale, car_options
 
 #########callback for car dropdown #######
 @app.callback(
-    Output('car-dropdown', 'value'),
-    Output('year-dropdown-1', 'options'),
+    [Output('car-dropdown', 'value'),
+    #Output('year-dropdown-1', 'options')
+    ],
     Input('car-dropdown', 'value')
 )
 def update_car_output(available_options):
+    if available_options == None:
+        return df['Car Name']
+    else:
+        return available_options[0]['value']
 
-    return available_options[0]['value']
+#########callback for car stats#########
+@app.callback(
+    [Output(component_id='Total Sales', component_property='children'),
+     Output('max_sale', 'children'),
+     Output('max_sale_date', 'children'),
+     Output('min_sale', 'children'),
+     Output('min_sale_date', 'children')
+     ],
+    Input('car-dropdown', 'value')
+)
+
+def update_car_stats(car_input):
+    if car_input == None:
+        return 0
+    else:
+        tot_sales = df.loc[df['Car Name'] == car_input]['Car Sales Count'].values
+        max_sale = df.loc[df['Car Name'] == car_input]['max'].values
+        max_sale_date = df.loc[df['Car Name'] == car_input]['Max Sale Date'].values
+        min_sale = df.loc[df['Car Name'] == car_input]['min'].values
+        min_sale_date = df.loc[df['Car Name'] == car_input]['Min Sale Date'].values
+
+    return tot_sales, max_sale, max_sale_date, min_sale, min_sale_date
+
 
 ##### callback for  year radio button#######
 @app.callback(
