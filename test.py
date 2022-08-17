@@ -10,7 +10,6 @@ df = pd.read_csv('ff_cars_clean.csv')
 input_movie =input('> ')
 
 def update_statistics(input_movie):
-
     #df_update = df[(df['Film Order'].str.contains(input_movie))]
    #maj = df_update[(df_update['Role'].str.contains('Major'))].value_counts()
    # maj = df_update.Role.str.contains('Major').sum()
@@ -18,7 +17,9 @@ def update_statistics(input_movie):
    #  avg_car_sale2 = round(df['mean'].mean(), ndigits=0)
     #print(df[df['Make'] == 'Corvette Sting Ray']['max'].item())
 
-    print(df.loc[df['Model'] == 'Skyline GT-R R33']['max'].values)
+    max_car = (df.loc[df['Model'] == 'Skyline GT-R R33']['max'].values)
+
+    print(f"{np.array2string(max_car, formatter={'float': lambda x: f'{x:,}'}, separator=', ')}")
     #print(df.query('Make' == 'Corvette Sting Ray')['max'])
 
     #print(len(df_update))

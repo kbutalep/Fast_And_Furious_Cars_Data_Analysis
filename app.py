@@ -146,15 +146,19 @@ def update_statistics(input_movie):
 #########callback for car dropdown #######
 @app.callback(
     [Output('car-dropdown', 'value'),
-    #Output('year-dropdown-1', 'options')
     ],
-    Input('car-dropdown', 'value')
-)
+    Input('car-dropdown', 'value'))
+
 def update_car_output(available_options):
     if available_options == None:
-        return df['Car Name']
+        car_drop_output = df['Car Name'].unique()
+        year_opts = df['Year'].unique()
     else:
-        return available_options[0]['value']
+        car_drop_output = available_options[0]['value']
+        year_opts = df['Year'].unique()
+
+
+    return car_drop_output, year_opts
 
 #########callback for car stats#########
 @app.callback(
@@ -188,7 +192,7 @@ def update_car_stats(car_input):
 def set_year_value(car_dropdown):
     #available_options = df[(df['Make'].str.contains(car_dropdown))]
     #return available_options[0]['value']
-    return(df[df['Make']==car_dropdown][0].values[0])
+    return(df[df['Car Name']==car_dropdown][0].values[0])
 
 ######### Callback for scatter chart ##############################
 @app.callback(
