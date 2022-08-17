@@ -181,7 +181,7 @@ def update_car_stats(car_input):
         min_sale = df.loc[df['Car Name'] == car_input]['min'].values
         min_sale_date = df.loc[df['Car Name'] == car_input]['Min Sale Date'].values
 
-    return tot_sales, max_sale, max_sale_date, min_sale, min_sale_date
+    return tot_sales, (f"{np.array2string(max_sale, formatter={'float': lambda x: f'{x:,}'}, separator=', ').strip('[]')}"), (f"{np.array2string(max_sale_date, formatter={'date': lambda x: f'{x:}'}, separator=', ').strip('[]')}"), (f"{np.array2string(min_sale, formatter={'float': lambda x: f'{x:,}'}, separator=', ').strip('[]')}"), (f"{np.array2string(min_sale_date, formatter={'date': lambda x: f'{x:}'}, separator=', ').strip('[]')}")
 
 
 ##### callback for  year radio button#######
