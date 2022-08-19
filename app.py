@@ -4,6 +4,9 @@ import pandas as pd
 import numpy as np
 from datetime import datetime as dt
 import plotly.express as px
+import matplotlib.dates as mdates
+import seaborn as sns
+import matplotlib as plt
 
 car_sales = pd.read_csv('car_sales_clean.csv')
 df = pd.read_csv('ff_cars_clean.csv')
@@ -97,6 +100,12 @@ app.layout = html.Div([
             ], className="three columns number-stat-box"),
         ], style={'margin': '1rem', 'display': 'flex', 'justify-content': 'space-between', 'width': '100%',
                   'flex-wrap': 'wrap'}),
+
+        #car scatter chart
+        html.Div(children=[
+            dcc.Graph(id="car-scatter-plot"),
+
+        ]),
 
         # Scatter plot
         html.Div(children=[
@@ -193,6 +202,39 @@ def set_year_value(car_dropdown):
     #available_options = df[(df['Make'].str.contains(car_dropdown))]
     #return available_options[0]['value']
     return(df[df['Car Name']==car_dropdown][0].values[0])
+
+###### Callback for Car specific scatter chart ######
+@app.callback(
+    Output("car-scatter-plot", "figure"),
+    Input("car-dropdown", "value"))
+
+def update_car_chart(car_selection):
+    cars = df[df["Car Name"]== car_selection]['Model']
+    #print(cars)
+    df_update = car_sales[(car_sales['Model'].isin(cars))]
+
+
+    # fig2 = px.scatter(df_update, x="Sale Date", y="Sale Amount", color="Year", hover_data=['Model'])
+    # fig2.update_layout(yaxis_range=[0, 300000])
+
+    line_chart = px.line(
+        data_frame=df_update,
+        x='Sale Date',
+        y='Sale Amount',
+        color='Year',
+        labels={'Model': 'Car', 'Sale Date': 'Date'},
+    )
+    return(line_chart)
+
+    # supra94 = car_sales.groupby(['Model', 'Year']).get_group(('Supra MK IV', 1994))
+    # plt.figure(figsize=(8, 6), dpi=240)
+    # plt.ylim(0, 160000)
+    # plt.xlabel('Sale Date'), plt.ylabel('Sale Amount')
+    # plt.title('Sales History - 1994 Toyota Supra')
+    # plt.scatter(x=supra94['Sale Date'], y=supra94['Sale Amount'])
+    # sns.regplot(x=mdates.date2num(supra94['Sale Date']), y=supra94['Sale Amount'])
+    # plt.show()
+
 
 ######### Callback for scatter chart ##############################
 @app.callback(
