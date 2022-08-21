@@ -17,7 +17,8 @@ def update_statistics(input_movie):
    #  avg_car_sale2 = round(df['mean'].mean(), ndigits=0)
     #print(df[df['Make'] == 'Corvette Sting Ray']['max'].item())
 
-    print(df[df['Car Name'] == 'Nissan Skyline GT-R R33'][0].values[0])
+
+    print(len(df['Car Name'].unique()))
 
 
 

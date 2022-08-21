@@ -44,12 +44,12 @@ app.layout = html.Div([
                 multi=False
             ),
             html.Label('Car', style={'paddingTop': '2rem'}),
-            dcc.Dropdown(id='car-dropdown', value=df['Car Name']),
+            dcc.Dropdown(id='car-dropdown', value=(df['Car Name'].unique())),
                 #html.Div(id='pandas-output-container-1'),
 
             html.Label('Car Model Year', style={'paddingTop': '2rem'}),
-            dcc.Dropdown(id='year-dropdown-1', options=df.Year.unique()),
-                html.Div(id='pandas-output-container-radio-1'),
+            dcc.Dropdown(id='year-dropdown-1', value=(df['Year'].unique())),
+                #html.Div(id='pandas-output-container-radio-1'),
 
 
             html.H4(id='Total Sales', style={'fontWeight': 'bold'}),
@@ -141,33 +141,31 @@ def update_statistics(input_movie):
     if input_movie == None:
         df_update = df
         avg_car_sale = round(car_sales['Sale Amount'].mean(), ndigits=0)
-        car_options = df['Car Name']
+        car_options = sorted(df['Car Name'].unique())
     else:
         df_update = df[(df['Film Order'].str.contains(input_movie))]
         avg_car_sale = round(df_update['mean'].mean(), ndigits=0)
         car_options = [{'label': i, 'value': i} for i in df_update['Car Name']]
+
 
     maj = df_update.Role.str.contains('Major').sum()
     minor = df_update.Role.str.contains('Minor').sum()
 
     return len(df_update), f'{maj} vs {minor}', round(df_update['Year'].mean(), ndigits=0), avg_car_sale, car_options
 
-#########callback for car dropdown #######
-@app.callback(
-    [Output('car-dropdown', 'value'),
-    ],
-    Input('car-dropdown', 'value'))
-
-def update_car_output(available_options):
-    if available_options == None:
-        car_drop_output = df['Car Name'].unique()
-        year_opts = df['Year'].unique()
-    else:
-        car_drop_output = available_options[0]['value']
-        year_opts = df['Year'].unique()
-
-
-    return car_drop_output, year_opts
+########callback for car dropdown #######
+# @app.callback(
+#     [Output('car-dropdown', 'value'),
+#     ],
+#     Input('car-dropdown', 'value'))
+#
+# def update_car_output(available_options):
+#     if available_options == None:
+#         car_drop_output = df['Car Name'].unique()
+#     else:
+#         car_drop_output = available_options[0]['value']
+#
+#     return car_drop_output
 
 #########callback for car stats#########
 @app.callback(
@@ -195,13 +193,17 @@ def update_car_stats(car_input):
 
 ##### callback for  year radio button#######
 @app.callback(
-    Output('year-dropdown-1', 'value'),
+    Output('year-dropdown-1', 'options'),
     Input('car-dropdown', 'value'))
     #Input('year-radio-1', 'value'))
 def set_year_value(car_dropdown):
-    #available_options = df[(df['Make'].str.contains(car_dropdown))]
-    #return available_options[0]['value']
-    return(df[df['Car Name']==car_dropdown][0].values[0])
+    if car_dropdown == None:
+        available_options = None
+    else:
+        available_options = df.loc[df['Car Name'] == car_dropdown]['Year'].values
+
+    return available_options
+    #return(available_options)
 
 ###### Callback for Car specific scatter chart ######
 @app.callback(
@@ -209,7 +211,7 @@ def set_year_value(car_dropdown):
     Input("car-dropdown", "value"))
 
 def update_car_chart(car_selection):
-    cars = df[df["Car Name"]== car_selection]['Model']
+    cars = df[df["Car Name"] == car_selection]['Model']
     #print(cars)
     df_update = car_sales[(car_sales['Model'].isin(cars))]
     df_update = df_update.sort_values(["Sale Date"]).reset_index(drop=True)
