@@ -212,6 +212,7 @@ def update_car_chart(car_selection):
     cars = df[df["Car Name"]== car_selection]['Model']
     #print(cars)
     df_update = car_sales[(car_sales['Model'].isin(cars))]
+    df_update = df_update.sort_values(["Sale Date"]).reset_index(drop=True)
 
 
     # fig2 = px.scatter(df_update, x="Sale Date", y="Sale Amount", color="Year", hover_data=['Model'])
@@ -225,15 +226,6 @@ def update_car_chart(car_selection):
         labels={'Model': 'Car', 'Sale Date': 'Date'},
     )
     return(line_chart)
-
-    # supra94 = car_sales.groupby(['Model', 'Year']).get_group(('Supra MK IV', 1994))
-    # plt.figure(figsize=(8, 6), dpi=240)
-    # plt.ylim(0, 160000)
-    # plt.xlabel('Sale Date'), plt.ylabel('Sale Amount')
-    # plt.title('Sales History - 1994 Toyota Supra')
-    # plt.scatter(x=supra94['Sale Date'], y=supra94['Sale Amount'])
-    # sns.regplot(x=mdates.date2num(supra94['Sale Date']), y=supra94['Sale Amount'])
-    # plt.show()
 
 
 ######### Callback for scatter chart ##############################

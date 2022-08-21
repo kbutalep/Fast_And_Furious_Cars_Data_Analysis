@@ -17,13 +17,18 @@ def update_statistics(input_movie):
    #  avg_car_sale2 = round(df['mean'].mean(), ndigits=0)
     #print(df[df['Make'] == 'Corvette Sting Ray']['max'].item())
 
-    #car_df = car_sales[(car_sales['Model'] == 'Mustang Fastback')]
+    print(df[df['Car Name'] == 'Nissan Skyline GT-R R33'][0].values[0])
 
-    cars = df[df["Car Name"] == 'Dodge Charger R/T']['Model']
-    print(cars)
 
-    df_update = car_sales[(car_sales['Model'].isin(cars))]
-    print(df_update)
+
+    # cars = df[df["Car Name"] == ['Nissan Skyline GT-R R33', 'Corvette Sting Ray']]['Model']
+    # print(cars)
+    #
+    # df_update = car_sales[(car_sales['Model'].isin(cars))]
+    # print(df_update)
+    #
+    # df_update = df_update.sort_values(["Sale Date"]).reset_index(drop=True)
+    # print(df_update)
 
     #print((f"{np.array2string(max_sale_date, formatter={'date': lambda x: f'{x:}'}, separator=', ').strip('[]')}"))
 
