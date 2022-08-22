@@ -49,7 +49,7 @@ app.layout = html.Div([
 
             html.Label('Car Model Year', style={'paddingTop': '2rem'}),
             dcc.Dropdown(id='year-dropdown-1', value=(df['Year'].unique())),
-                #html.Div(id='pandas-output-container-radio-1'),
+                #html.Div(id='output-container-year-1'),
 
 
             html.H4(id='Total Sales', style={'fontWeight': 'bold'}),
@@ -194,16 +194,18 @@ def update_car_stats(car_input):
 ##### callback for  year radio button#######
 @app.callback(
     Output('year-dropdown-1', 'options'),
+     #Output('output-container-year-1', 'children')
     Input('car-dropdown', 'value'))
-    #Input('year-radio-1', 'value'))
+    #Input('year-radio-1', 'value')) #prints but somehow impacts other dropdowns so they don't clear.
 def set_year_value(car_dropdown):
     if car_dropdown == None:
-        available_options = None
+        available_options = df['Year'].unique()
     else:
         available_options = df.loc[df['Car Name'] == car_dropdown]['Year'].values
 
     return available_options
-    #return(available_options)
+           #f'{available_options} + {car_dropdown}' ###figure out how to get this to print and not mess up other dropdowns
+
 
 ###### Callback for Car specific scatter chart ######
 @app.callback(
