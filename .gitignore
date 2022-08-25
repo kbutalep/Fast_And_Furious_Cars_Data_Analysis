@@ -1,0 +1,11 @@
+# Ignore Mac system files
+.DS_store
+.idea/
+# Ignore node_modules folder
+node_modules
+# Ignore files related to API keys
+.env
+# Ignore SASS config files
+.sass-cache
+# Ignore dev test file
+dev_test.py
