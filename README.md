@@ -1,4 +1,4 @@
-# Fast_And_Furious_Cars_Data_Analysis
+# Fast and Furious Cars Data Analysis
 A passion project for ZCW analyzing data surrounding the cars of the Fast &amp; Furious movie franchise
 
 ## Methodology:
@@ -11,23 +11,15 @@ A passion project for ZCW analyzing data surrounding the cars of the Fast &amp; 
 - Make
 - Model
 - Trim
-- Do we want to include mods or just stock?
 - Which movie they appeared in.
-- Character driving?
 - Price
-  - Determine which prices to include?
-  - Base price when it came out
-  - Current market value
-  - Price including mods or stock?
-  - Price of mods?
-  - Adjust for inflation?
-  - Historical market price(need to find this data)
+  - only able to reliably find prices from roughly the past 5 years
+- Sale Dates and locations
 
+**Analyze Data**
+- Clean and transform data
+- Compare car sales data movie by movie
+- Specific cars sales history
 
-**Get movie(s) release dates**
-**Plot out cars’ historical prices, is there a bump after the movies? Other bumps?(i.e. PW death)**
-
-Any other factors that may influence price (scarcity, country released (i.e. skyline not  street legal in US, only as classic car when its 20 years old), other…?)
-Maybe other movies cars appeared in…?
-
-Determine other analysis & visualizations that can be done on the data
+**Create Interactive Visualization with Dash**
+ 
