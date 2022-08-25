@@ -30,3 +30,8 @@ Any other factors that may influence price (scarcity, country released (i.e. sky
 Maybe other movies cars appeared in…?
 
 Determine other analysis & visualizations that can be done on the data
+
+## Challenges Faced
+
+Unable to find a reliable source for historical car sales data past 5 years.
+This limited the analysis I was able to do and I could not draw any conclusions regarding if the movies affected the price of the cars. 
