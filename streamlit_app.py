@@ -5,11 +5,12 @@ from datetime import datetime as dt
 import plotly.express as px
 import matplotlib.dates as mdates
 import seaborn as sns
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import streamlit as st
 from utils import *
 
 st.set_page_config(layout="wide", page_title="Fast and Furious Car Analysis")
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 car_sales = pd.read_csv('car_sales_clean.csv')
 df = pd.read_csv('ff_cars_clean.csv')
@@ -56,10 +57,42 @@ with movie_data:
     col3.metric("Average Car Model Year", '{:.0f}'.format(avg_year))
     col4.metric("Mean Car Sales", '{:,.0f}'.format(avg_car_sale))
 
+    col5, col6 = st.columns(2)
+    with col5:
+        car_year_stack = df_update.groupby(df_update['Year'])['Make'].value_counts()
+        car_year_stack_chart=car_year_stack.unstack()
+        colors=sns.color_palette('plasma')
+        car_year_stack_chart.plot.bar(stacked=True, color=colors)
+        plt.xlabel('Car Model Year')
+        plt.legend(bbox_to_anchor=(1.05,1))
+        st.pyplot(plt.show(), user_container_width=True)
+
+    with col6:
+        car_model_stack = df_update.groupby(df_update['Make'])['Year'].value_counts()
+        car_model_stack_chart = car_model_stack.unstack()
+        colors = sns.color_palette('plasma')
+        car_model_stack_chart.plot.bar(stacked=True, color=colors)
+        plt.xlabel('Car Model Year')
+        plt.legend(bbox_to_anchor=(1.05, 1))
+        st.pyplot(plt.show(), user_container_width=True)
+
+# car_year = df_update.groupby('Year')
+# fig, ax = plt.subplots()
+# ax.hist(df_update['Year'], bins= 10)
+# plt.xlabel('Car Year')
+# # df_update['Year'].plot.hist(color='green', title= 'car year', bins = [1960, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2022], rwidth=0.7)
+# st.pyplot(fig)
+
+
 ################## CAR DATA ###################
 car_data = st.container()
 
-st.write(car_movie_df)
+with car_data:
+    st.markdown('## Car Data')
+    st.write(car_movie_df)
+    st.write(car_movie_df['Car Name'].unique())
+
+
 # tot_sales = car_movie_df.loc[car_movie_df['Car Name'] == selected_car]['Car Sales Count'].values
 # max_sale = df_update.loc[df['Car Name'] == selected_car]['max'].values
 # max_sale_date = df.loc[df['Car Name'] == selected_car]['Max Sale Date'].values
