@@ -59,29 +59,32 @@ with movie_data:
 
     col5, col6 = st.columns(2)
     with col5:
-        car_year_stack = df_update.groupby(df_update['Year'])['Make'].value_counts()
-        car_year_stack_chart=car_year_stack.unstack()
-        colors=sns.color_palette('plasma')
-        car_year_stack_chart.plot.bar(stacked=True, color=colors)
-        plt.xlabel('Car Model Year')
-        plt.legend(bbox_to_anchor=(1.05,1))
-        st.pyplot(plt.show(), user_container_width=True)
+        colors = sns.color_palette('plasma')
+        car_year = df_update.groupby('Year')
+        fig, ax = plt.subplots()
+        ax.hist(df_update['Year'], bins= 10, align='mid', color=colors[1], edgecolor='black', linewidth=1)
+        ax.set_title('Count of Car Year')
+        plt.xlabel('Car Year')
+        # df_update['Year'].plot.hist(color='green', title= 'car year', bins = [1960, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2022], rwidth=0.7)
+        st.pyplot(fig)
+        # car_year_stack = df_update.groupby(df_update['Year'])['Make'].value_counts()
+        # car_year_stack_chart=car_year_stack.unstack()
+        # colors=sns.color_palette('plasma')
+        # car_year_stack_chart.plot.bar(stacked=True, color=colors)
+        # plt.xlabel('Car Model Year')
+        # plt.legend(bbox_to_anchor=(1.05,1))
+        # st.pyplot(plt.show(), user_container_width=True)
 
     with col6:
         car_model_stack = df_update.groupby(df_update['Make'])['Year'].value_counts()
         car_model_stack_chart = car_model_stack.unstack()
         colors = sns.color_palette('plasma')
-        car_model_stack_chart.plot.bar(stacked=True, color=colors)
+        car_model_stack_chart.plot.bar(stacked=True,)
         plt.xlabel('Car Model Year')
         plt.legend(bbox_to_anchor=(1.05, 1))
         st.pyplot(plt.show(), user_container_width=True)
 
-# car_year = df_update.groupby('Year')
-# fig, ax = plt.subplots()
-# ax.hist(df_update['Year'], bins= 10)
-# plt.xlabel('Car Year')
-# # df_update['Year'].plot.hist(color='green', title= 'car year', bins = [1960, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2022], rwidth=0.7)
-# st.pyplot(fig)
+
 
 
 ################## CAR DATA ###################
