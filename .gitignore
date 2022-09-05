@@ -9,3 +9,5 @@ node_modules
 .sass-cache
 # Ignore dev test file
 dev_test.py
+utils.py
+style.css
