@@ -62,18 +62,12 @@ with movie_data:
         colors = sns.color_palette('plasma')
         car_year = df_update.groupby('Year')
         fig, ax = plt.subplots()
-        ax.hist(df_update['Year'], bins= 10, align='mid', color=colors[1], edgecolor='black', linewidth=1)
+        ax.hist(df_update['Year'], bins= 10, color=colors[1], edgecolor='black', linewidth=1)
         ax.set_title('Count of Car Year')
         plt.xlabel('Car Year')
-        # df_update['Year'].plot.hist(color='green', title= 'car year', bins = [1960, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2022], rwidth=0.7)
+
         st.pyplot(fig)
-        # car_year_stack = df_update.groupby(df_update['Year'])['Make'].value_counts()
-        # car_year_stack_chart=car_year_stack.unstack()
-        # colors=sns.color_palette('plasma')
-        # car_year_stack_chart.plot.bar(stacked=True, color=colors)
-        # plt.xlabel('Car Model Year')
-        # plt.legend(bbox_to_anchor=(1.05,1))
-        # st.pyplot(plt.show(), user_container_width=True)
+
 
     with col6:
         car_model_stack = df_update.groupby(df_update['Make'])['Year'].value_counts()
@@ -95,7 +89,21 @@ with car_data:
     st.write(car_movie_df)
     st.write(car_movie_df['Car Name'].unique())
 
+    r33 = car_sales.groupby(['Model']).get_group(('Skyline GT-R R33'))
+    r33_fig, ax = plt.subplots()
+    plt.ylim(0, 400000)
+    plt.xlabel('Sale Date'), plt.ylabel('Sale Amount')
+    ax.xaxis_date()
+    plt.title('Sales History - 1995/1996 Skyline GT-R R33')
+    plt.scatter(x=r33['Sale Date'], y=r33['Sale Amount'])
+    sns.regplot(x=mdates.date2num(r33['Sale Date']), y=r33['Sale Amount'], scatter_kws={"color": "teal"},
+                line_kws={"color": "orange"})
+    fig.autofmt_xdate()
+    st.pyplot(r33_fig)
 
+    if st.checkbox('Show Sales Data'):
+        st.subheader('Sales Data')
+        st.write(r33)
 # tot_sales = car_movie_df.loc[car_movie_df['Car Name'] == selected_car]['Car Sales Count'].values
 # max_sale = df_update.loc[df['Car Name'] == selected_car]['max'].values
 # max_sale_date = df.loc[df['Car Name'] == selected_car]['Max Sale Date'].values
