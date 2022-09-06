@@ -87,23 +87,26 @@ car_data = st.container()
 dfs = {Model: car_sales[car_sales["Model"]== Model] for Model in selected_car}
 with car_data:
     st.markdown('## Car Sales Data')
-    st.write(car_movie_df)
+    # st.write(car_movie_df)
     st.subheader("You selected: {}".format(",  ".join(selected_car)))
 
 
-    col7, col8 = st.columns(2)
+    # col7, col8 = st.columns(2)
+    #
+    # with col7:
+    #     st.write("column7")
+    #     st.write(type(cm_df))
+    #     for values in cm_df.values():
+    #         st.write(values)
+    #
+    # with col8:
+    #     st.write('column 8')
+    #
+    #     tot_sales = car_movie_df['Car Sales Count'].values.tolist()
+    #     length= len(tot_sales)
+    #     for i in range(length):
+    #         st.write(f'The total sales were {tot_sales[i]}')
 
-    with col7:
-        st.write("column7")
-        st.write(type(cm_df))
-        for values in cm_df.values():
-            st.write(values)
-
-    with col8:
-        st.write('column 8')
-
-        tot_sales = car_movie_df['Car Sales Count'].values
-        st.write(tot_sales)
 
 # max_sale = df_update.loc[df['Car Name'] == selected_car]['max'].values
 # max_sale_date = df.loc[df['Car Name'] == selected_car]['Max Sale Date'].values
