@@ -27,13 +27,12 @@ with st.sidebar.header('Filter Search'):
     else:
         df_update = df
 
-    car_movie=sorted(df_update['Car Name'].unique())
+    car_movie=sorted(df_update['Model'].unique())
     selected_car= st.sidebar.multiselect(options=car_movie, label="Select a Car")
 
-    car_movie_df = df_update[(df_update['Car Name'].isin(selected_car))]
+    car_movie_df = df_update[(df_update['Model'].isin(selected_car))]
 
-    # brand = st.sidebar.selectbox('Select Brand', df.Make.unique())
-    # model = st.sidebar.multiselect('Select your model', df.loc[df.Make == brand]['Model'].unique())
+
 
 ############## MOVIE DATA STATS ###################
 movie_data = st.container()
@@ -87,23 +86,41 @@ car_data = st.container()
 with car_data:
     st.markdown('## Car Data')
     st.write(car_movie_df)
-    st.write(car_movie_df['Car Name'].unique())
+    st.subheader("You selected: {}".format(", ".join(selected_car)))
 
-    r33 = car_sales.groupby(['Model']).get_group(('Skyline GT-R R33'))
-    r33_fig, ax = plt.subplots()
-    plt.ylim(0, 400000)
-    plt.xlabel('Sale Date'), plt.ylabel('Sale Amount')
-    ax.xaxis_date()
-    plt.title('Sales History - 1995/1996 Skyline GT-R R33')
-    plt.scatter(x=r33['Sale Date'], y=r33['Sale Amount'])
-    sns.regplot(x=mdates.date2num(r33['Sale Date']), y=r33['Sale Amount'], scatter_kws={"color": "teal"},
-                line_kws={"color": "orange"})
-    fig.autofmt_xdate()
-    st.pyplot(r33_fig)
 
-    if st.checkbox('Show Sales Data'):
-        st.subheader('Sales Data')
-        st.write(r33)
+    col7, col8 = st.columns(2)
+
+    with col7:
+        dfs = {Model: car_sales[car_sales["Model"]== Model] for Model in selected_car}
+
+        fig = go.Figure()
+        for Model, car_sales in dfs.items():
+            fig = fig.add_trace(go.Scatter(x=sorted(car_sales['Sale Date']), y=car_sales['Sale Amount'], name=Model))
+        st.plotly_chart(fig)
+        plt.cla()
+
+        if st.checkbox('Show Sales Data'):
+            st.subheader('Sales Data')
+            st.write(car_sales[car_sales['Model'].isin(selected_car)])
+
+    with col8:
+        st.write('column 8')
+        # cars_sales_select = car_sales.groupby(['Model']).get_group((selected_car))
+        # cars_sales_fig, ax = plt.subplots()
+        # plt.ylim(0, 400000)
+        # plt.xlabel('Sale Date'), plt.ylabel('Sale Amount')
+        # ax.xaxis_date()
+        # plt.title(f'Sales History - {selected_car}')
+        # plt.scatter(x=cars_sales_select['Sale Date'], y=cars_sales_select['Sale Amount'])
+        # sns.regplot(x=mdates.date2num(cars_sales_select['Sale Date']), y=cars_sales_select['Sale Amount'], scatter_kws={"color": "teal"},
+        #             line_kws={"color": "orange"})
+        # fig.autofmt_xdate()
+        # st.pyplot(cars_sales_fig)
+
+        # if st.checkbox('Show Sales Data'):
+        #     st.subheader('Sales Data')
+        #     st.write(car_sales[car_sales['Model'].isin(selected_car)])
 # tot_sales = car_movie_df.loc[car_movie_df['Car Name'] == selected_car]['Car Sales Count'].values
 # max_sale = df_update.loc[df['Car Name'] == selected_car]['max'].values
 # max_sale_date = df.loc[df['Car Name'] == selected_car]['Max Sale Date'].values
