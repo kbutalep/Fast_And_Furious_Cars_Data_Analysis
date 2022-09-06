@@ -31,13 +31,15 @@ with st.sidebar.header('Filter Search'):
     selected_car= st.sidebar.multiselect(options=car_movie, label="Select a Car")
 
     car_movie_df = df_update[(df_update['Model'].isin(selected_car))]
+    cm_df = {Model: car_movie_df[car_movie_df["Model"]== Model] for Model in selected_car}
+
 
 
 
 ############## MOVIE DATA STATS ###################
 movie_data = st.container()
 with movie_data:
-    st.markdown(f'## Movie Data for {selected_movie}')
+    st.markdown(f'## Movie Cars Data for {selected_movie}')
 
     avg_car_sale = round(df_update['mean'].mean(), ndigits=0)
     maj = df_update.Role.str.contains('Major').sum()
@@ -82,52 +84,49 @@ with movie_data:
 
 ################## CAR DATA ###################
 car_data = st.container()
-
+dfs = {Model: car_sales[car_sales["Model"]== Model] for Model in selected_car}
 with car_data:
-    st.markdown('## Car Data')
+    st.markdown('## Car Sales Data')
     st.write(car_movie_df)
-    st.subheader("You selected: {}".format(", ".join(selected_car)))
+    st.subheader("You selected: {}".format(",  ".join(selected_car)))
 
 
     col7, col8 = st.columns(2)
 
     with col7:
-        dfs = {Model: car_sales[car_sales["Model"]== Model] for Model in selected_car}
-
-        fig = go.Figure()
-        for Model, car_sales in dfs.items():
-            fig = fig.add_trace(go.Scatter(x=sorted(car_sales['Sale Date']), y=car_sales['Sale Amount'], name=Model))
-        st.plotly_chart(fig)
-        plt.cla()
-
-        if st.checkbox('Show Sales Data'):
-            st.subheader('Sales Data')
-            st.write(car_sales[car_sales['Model'].isin(selected_car)])
+        st.write("column7")
+        st.write(type(cm_df))
+        for values in cm_df.values():
+            st.write(values)
 
     with col8:
         st.write('column 8')
-        # cars_sales_select = car_sales.groupby(['Model']).get_group((selected_car))
-        # cars_sales_fig, ax = plt.subplots()
-        # plt.ylim(0, 400000)
-        # plt.xlabel('Sale Date'), plt.ylabel('Sale Amount')
-        # ax.xaxis_date()
-        # plt.title(f'Sales History - {selected_car}')
-        # plt.scatter(x=cars_sales_select['Sale Date'], y=cars_sales_select['Sale Amount'])
-        # sns.regplot(x=mdates.date2num(cars_sales_select['Sale Date']), y=cars_sales_select['Sale Amount'], scatter_kws={"color": "teal"},
-        #             line_kws={"color": "orange"})
-        # fig.autofmt_xdate()
-        # st.pyplot(cars_sales_fig)
 
-        # if st.checkbox('Show Sales Data'):
-        #     st.subheader('Sales Data')
-        #     st.write(car_sales[car_sales['Model'].isin(selected_car)])
-# tot_sales = car_movie_df.loc[car_movie_df['Car Name'] == selected_car]['Car Sales Count'].values
+        tot_sales = car_movie_df['Car Sales Count'].values
+        st.write(tot_sales)
+
 # max_sale = df_update.loc[df['Car Name'] == selected_car]['max'].values
 # max_sale_date = df.loc[df['Car Name'] == selected_car]['Max Sale Date'].values
 # min_sale = df.loc[df['Car Name'] == selected_car]['min'].values
 # min_sale_date = df.loc[df['Car Name'] == selected_car]['Min Sale Date'].values
 
 # st.write(tot_sales)
+
+# dfs = {Model: car_sales[car_sales["Model"]== Model] for Model in selected_car}
+
+fig = go.Figure()
+for Model, car_sales in dfs.items():
+    fig = fig.add_trace(go.Scatter(x=sorted(car_sales['Sale Date']), y=car_sales['Sale Amount'], name=Model))
+st.plotly_chart(fig, use_container_width=True)
+plt.cla()
+
+if st.checkbox('Show Sales Data'):
+    st.subheader('Sales Data')
+    for Model, car_sales in dfs.items():
+        st.write(Model, car_sales)
+
+st.markdown(' ')
+st.markdown(' ')
 
 if st.checkbox('Show raw data'):
     st.subheader('Raw data')
