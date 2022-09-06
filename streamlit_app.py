@@ -15,7 +15,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 car_sales = pd.read_csv('car_sales_clean.csv')
 df = pd.read_csv('ff_cars_clean.csv')
 
-st.title("# Fast and Furious Site Remake")
+st.markdown("<h1 style='text-align: center; color: black; '>The Cars of the Fast and Furious Movie Franchise</h1>", unsafe_allow_html=True)
 
 ########### SIDEBAR ###################
 with st.sidebar.header('Filter Search'):
