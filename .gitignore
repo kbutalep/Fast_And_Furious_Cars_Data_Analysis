@@ -1,11 +1,35 @@
-# Ignore Mac system files
-.DS_store
+# Mac system files
+.DS_Store
 .idea/
-# Ignore node_modules folder
+
+# Node
 node_modules
-# Ignore files related to API keys
+
+# Environment / secrets
 .env
-# Ignore SASS config files
+.env.*
+
+# SASS
 .sass-cache
-# Ignore dev test file
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Binary research artifacts
+data/links.pkl
+
+# Dev/scratch files
 dev_test.py
+test.py

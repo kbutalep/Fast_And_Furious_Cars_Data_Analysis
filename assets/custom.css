@@ -1,0 +1,51 @@
+/* Highlight the selected film tile */
+label:has(input[type="radio"]:checked) {
+    border-color: #f97316 !important;
+    background-color: rgba(249, 115, 22, 0.12) !important;
+}
+
+label:has(input[type="radio"]:checked) div {
+    color: #f97316 !important;
+}
+
+/* Hover effect on tiles */
+label:hover {
+    border-color: #9ca3af !important;
+    transition: border-color 0.15s ease;
+}
+
+/* Dark background for dropdown menus */
+.Select-menu-outer {
+    background-color: #1f2937 !important;
+    border-color: #374151 !important;
+}
+
+.Select-option {
+    background-color: #1f2937 !important;
+    color: #f9fafb !important;
+}
+
+.Select-option:hover,
+.Select-option.is-focused {
+    background-color: #374151 !important;
+}
+
+.Select-control {
+    background-color: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #f9fafb !important;
+}
+
+.Select-value-label,
+.Select-placeholder,
+.Select--single > .Select-control .Select-value {
+    color: #f9fafb !important;
+}
+
+.Select-input input {
+    color: #f9fafb !important;
+}
+
+.Select-arrow {
+    border-top-color: #9ca3af !important;
+}
