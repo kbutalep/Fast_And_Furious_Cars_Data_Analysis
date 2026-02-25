@@ -1,20 +1,21 @@
-/* Highlight the selected film tile */
-label:has(input[type="radio"]:checked) {
-    border-color: #f97316 !important;
-    background-color: rgba(249, 115, 22, 0.12) !important;
+/* ── Film tile selection state ──────────────────────────────────────────────── */
+.film-tile--selected {
+    border-color: #f97316;
+    background-color: rgba(249, 115, 22, 0.12);
 }
 
-label:has(input[type="radio"]:checked) div {
-    color: #f97316 !important;
+.film-tile--selected .film-tile-code,
+.film-tile--selected .film-tile-name {
+    color: #f97316;
 }
 
-/* Hover effect on tiles */
-label:hover {
-    border-color: #9ca3af !important;
+.film-tile:hover {
+    border-color: #9ca3af;
     transition: border-color 0.15s ease;
+    cursor: pointer;
 }
 
-/* Dark background for dropdown menus */
+/* ── Dropdown dark theme ──────────────────────────────────────────────────── */
 .Select-menu-outer {
     background-color: #1f2937 !important;
     border-color: #374151 !important;
@@ -48,4 +49,129 @@ label:hover {
 
 .Select-arrow {
     border-top-color: #9ca3af !important;
+}
+
+/* ── App shell ────────────────────────────────────────────────────────────── */
+.app-shell {
+    background-color: #111827;
+    min-height: 100vh;
+    color: #f9fafb;
+    font-family: Arial, sans-serif;
+}
+
+/* ── Header ───────────────────────────────────────────────────────────────── */
+.app-header {
+    text-align: center;
+    padding: 2rem 0 1.5rem 0;
+}
+
+.app-title {
+    color: #f97316;
+    letter-spacing: 6px;
+    margin: 0;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.app-subtitle {
+    color: #9ca3af;
+    letter-spacing: 3px;
+    margin: 6px 0 0 0;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+/* ── Film selector ────────────────────────────────────────────────────────── */
+.film-selector {
+    padding: 0 1rem 1.5rem 1rem;
+    text-align: center;
+}
+
+.film-tile {
+    display: inline-block;
+    margin: 0 3px;
+    padding: 8px 10px;
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    min-width: 68px;
+    vertical-align: top;
+}
+
+.film-tile-code {
+    font-weight: 700;
+    font-size: 13px;
+    color: #f9fafb;
+}
+
+.film-tile-name {
+    font-size: 9px;
+    color: #9ca3af;
+    margin-top: 3px;
+}
+
+/* ── Main grid ────────────────────────────────────────────────────────────── */
+.main-grid {
+    padding: 0 1rem;
+}
+
+/* ── Card ─────────────────────────────────────────────────────────────────── */
+.card {
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 12px;
+}
+
+/* ── Section label ────────────────────────────────────────────────────────── */
+.section-label {
+    color: #f97316;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+/* ── Stat block ───────────────────────────────────────────────────────────── */
+.stat-block {
+    margin-bottom: 10px;
+}
+
+.stat-label {
+    color: #9ca3af;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.stat-value {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 2px;
+    color: #f9fafb;
+}
+
+.stat-value--accent { color: #f97316; }
+.stat-value--green  { color: #22c55e; }
+.stat-value--blue   { color: #00aeef; }
+
+/* ── Filter labels ────────────────────────────────────────────────────────── */
+.filter-label {
+    color: #9ca3af;
+    font-size: 11px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.filter-label-mt {
+    margin-top: 12px;
+}
+
+/* ── Charts ───────────────────────────────────────────────────────────────── */
+.chart-fixed-height {
+    height: 300px;
 }

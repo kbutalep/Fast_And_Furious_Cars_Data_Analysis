@@ -1,4 +1,4 @@
-from dash import Dash, dcc, html, Input, Output
+from dash import Dash, dcc, html, Input, Output, State, ALL, ctx
 import pandas as pd
 import numpy as np
 import plotly.express as px
@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 car_sales = pd.read_csv('car_sales_clean.csv', parse_dates=['Sale Date'])
 df = pd.read_csv('ff_cars_clean.csv')
 
-# ── Theme ─────────────────────────────────────────────────────────────────────
+# ── Theme (Plotly charts need Python values) ───────────────────────────────────
 BG     = '#111827'
 CARD   = '#1f2937'
 BORDER = '#374151'
@@ -38,38 +38,20 @@ def fmt(v):
     except (TypeError, ValueError):
         return 'N/A'
 
-def card(children, extra=None):
-    style = {
-        'backgroundColor': CARD,
-        'border': f'1px solid {BORDER}',
-        'borderRadius': '8px',
-        'padding': '1rem',
-        'marginBottom': '12px',
-    }
-    if extra:
-        style.update(extra)
-    return html.Div(children, style=style)
+def card(children):
+    return html.Div(children, className='card')
 
 def section_label(text):
-    return html.Div(text, style={
-        'color': ACCENT,
-        'fontSize': '10px',
-        'letterSpacing': '2px',
-        'textTransform': 'uppercase',
-        'fontWeight': '700',
-        'marginBottom': '12px',
-    })
+    return html.Div(text, className='section-label')
+
+_COLOR_TO_MOD = {ACCENT: '--accent', GREEN: '--green', BLUE: '--blue'}
 
 def stat_block(label, value, color=TEXT):
+    mod = _COLOR_TO_MOD.get(color, '')
     return html.Div([
-        html.Div(label, style={
-            'color': MUTED, 'fontSize': '10px',
-            'letterSpacing': '1px', 'textTransform': 'uppercase',
-        }),
-        html.Div(value, style={
-            'color': color, 'fontSize': '18px', 'fontWeight': '700', 'marginTop': '2px',
-        }),
-    ], style={'marginBottom': '10px'})
+        html.Div(label, className='stat-label'),
+        html.Div(value, className=f'stat-value{mod}'),
+    ], className='stat-block')
 
 def plot_base(title=''):
     return dict(
@@ -100,47 +82,24 @@ app.layout = html.Div([
 
     # Header
     html.Div([
-        html.H2('FAST & FURIOUS', style={
-            'color': ACCENT, 'letterSpacing': '6px', 'margin': '0',
-            'fontWeight': '900', 'fontSize': '2rem',
-        }),
-        html.P('Auction Data Explorer', style={
-            'color': MUTED, 'letterSpacing': '3px',
-            'margin': '6px 0 0 0', 'fontSize': '11px', 'textTransform': 'uppercase',
-        }),
-    ], style={'textAlign': 'center', 'padding': '2rem 0 1.5rem 0'}),
+        html.H2('FAST & FURIOUS', className='app-title'),
+        html.P('Auction Data Explorer', className='app-subtitle'),
+    ], className='app-header'),
+
+    dcc.Store(id='selected-movie', data=None),
 
     # Film tiles
     html.Div([
-        dcc.RadioItems(
-            id='movie-select',
-            options=[
-                {
-                    'label': html.Div([
-                        html.Div(code, style={'fontWeight': '700', 'fontSize': '13px', 'color': TEXT}),
-                        html.Div(name, style={'fontSize': '9px', 'color': MUTED, 'marginTop': '3px'}),
-                    ]),
-                    'value': code,
-                }
-                for code, name in FILMS
-            ],
-            value=None,
-            inputStyle={'display': 'none'},
-            labelStyle={
-                'display': 'inline-block',
-                'margin': '0 3px',
-                'padding': '8px 10px',
-                'backgroundColor': CARD,
-                'border': f'1px solid {BORDER}',
-                'borderRadius': '6px',
-                'cursor': 'pointer',
-                'textAlign': 'center',
-                'minWidth': '68px',
-                'verticalAlign': 'top',
-            },
-            style={'textAlign': 'center'},
-        ),
-    ], style={'padding': '0 1rem 1.5rem 1rem'}),
+        html.Div([
+            html.Div(code, className='film-tile-code'),
+            html.Div(name, className='film-tile-name'),
+        ],
+        id={'type': 'film-btn', 'index': code},
+        className='film-tile',
+        n_clicks=0,
+        )
+        for code, name in FILMS
+    ], className='film-selector'),
 
     # Main layout
     html.Div([
@@ -149,14 +108,14 @@ app.layout = html.Div([
         html.Div([
             card([
                 section_label('Filters'),
-                html.Label('Car', style={'color': MUTED, 'fontSize': '11px', 'display': 'block', 'marginBottom': '4px'}),
+                html.Label('Car', className='filter-label'),
                 dcc.Dropdown(
                     id='car-dropdown',
                     value=None,
                     placeholder='All cars...',
                     clearable=True,
                 ),
-                html.Label('Model Year', style={'color': MUTED, 'fontSize': '11px', 'display': 'block', 'marginTop': '12px', 'marginBottom': '4px'}),
+                html.Label('Model Year', className='filter-label filter-label-mt'),
                 dcc.Dropdown(
                     id='year-dropdown',
                     value=None,
@@ -176,27 +135,50 @@ app.layout = html.Div([
         # Charts
         html.Div([
             card([dcc.Graph(id='price-history-chart', config={'displayModeBar': False},
-                            style={'height': '300px'})]),
+                            className='chart-fixed-height')]),
             card([dcc.Graph(id='value-comparison-chart', config={'displayModeBar': False})]),
         ], className='nine columns'),
 
-    ], className='row', style={'padding': '0 1rem'}),
+    ], className='row main-grid'),
 
-], style={
-    'backgroundColor': BG,
-    'minHeight': '100vh',
-    'color': TEXT,
-    'fontFamily': 'Arial, sans-serif',
-})
+], className='app-shell')
 
 
 # ── Callbacks ─────────────────────────────────────────────────────────────────
+
+# 0a. Film tile click → store selection (click again to deselect)
+@app.callback(
+    Output('selected-movie', 'data'),
+    Input({'type': 'film-btn', 'index': ALL}, 'n_clicks'),
+    State('selected-movie', 'data'),
+    prevent_initial_call=True,
+)
+def select_movie(_n_clicks, current):
+    triggered = ctx.triggered_id
+    if triggered is None:
+        return current
+    clicked = triggered['index']
+    return None if clicked == current else clicked
+
+
+# 0b. Highlight the active tile
+@app.callback(
+    Output({'type': 'film-btn', 'index': ALL}, 'className'),
+    Input('selected-movie', 'data'),
+    State({'type': 'film-btn', 'index': ALL}, 'id'),
+)
+def update_tile_classes(selected, ids):
+    return [
+        'film-tile film-tile--selected' if id_obj['index'] == selected else 'film-tile'
+        for id_obj in ids
+    ]
+
 
 # 1. Movie → car dropdown options + reset selection
 @app.callback(
     [Output('car-dropdown', 'options'),
      Output('car-dropdown', 'value')],
-    Input('movie-select', 'value')
+    Input('selected-movie', 'data')
 )
 def update_car_options(movie):
     if movie is None:
@@ -207,17 +189,21 @@ def update_car_options(movie):
     return options, None
 
 
-# 2. Car → year dropdown options + reset selection
+# 2. Car / movie → year dropdown options + reset selection
 @app.callback(
     [Output('year-dropdown', 'options'),
      Output('year-dropdown', 'value')],
-    Input('car-dropdown', 'value')
+    [Input('car-dropdown', 'value'),
+     Input('selected-movie', 'data')]
 )
-def update_year_options(car):
-    if car is None:
-        years = sorted(df['Year'].unique())
-    else:
+def update_year_options(car, movie):
+    if car is not None:
         years = sorted(df[df['Car Name'] == car]['Year'].unique())
+    elif movie is not None:
+        pool = df[df['Film Order'].str.contains(movie) & (df['Car Sales Count'] > 0)]
+        years = sorted(pool['Year'].unique())
+    else:
+        years = sorted(df['Year'].unique())
     return [{'label': str(int(y)), 'value': y} for y in years], None
 
 
@@ -228,11 +214,19 @@ def update_year_options(car):
      Output('stat-max', 'children'),
      Output('stat-min', 'children')],
     [Input('car-dropdown', 'value'),
-     Input('movie-select', 'value')]
+     Input('selected-movie', 'data')]
 )
 def update_stats(car, movie):
     if car is not None:
-        row = df[df['Car Name'] == car].iloc[0]
+        rows = df[df['Car Name'] == car]
+        if movie is not None:
+            movie_rows = rows[rows['Film Order'].str.contains(movie)]
+            if not movie_rows.empty:
+                rows = movie_rows
+        row = rows[rows['Car Sales Count'] > 0]
+        if row.empty:
+            return [stat_block('No data', '—')] * 4
+        row = row.iloc[0]
         return (
             stat_block('Avg Sale Price', fmt(row['mean']), ACCENT),
             stat_block('Auction Sales', str(int(row['Car Sales Count'])), TEXT),
@@ -262,17 +256,27 @@ def update_stats(car, movie):
     )
 
 
-# 4. Price history chart — for the selected car, optionally filtered by year
+# 4. Price history chart — car-level or movie-level, optionally filtered by year
 @app.callback(
     Output('price-history-chart', 'figure'),
     [Input('car-dropdown', 'value'),
-     Input('year-dropdown', 'value')]
+     Input('year-dropdown', 'value'),
+     Input('selected-movie', 'data')]
 )
-def update_price_history(car, year):
-    if car is None:
-        return empty_fig('Select a car to view its auction price history')
+def update_price_history(car, year, movie):
+    if car is None and movie is None:
+        return empty_fig('Select a film or car to view auction price history')
 
-    models = df[df['Car Name'] == car]['Model'].values
+    if car is not None:
+        models = df[df['Car Name'] == car]['Model'].values
+        color_col = 'Model'
+        title = f'{car} — Price History'
+    else:
+        movie_cars = df[df['Film Order'].str.contains(movie) & (df['Car Sales Count'] > 0)]
+        models = movie_cars['Model'].values
+        color_col = 'Car Name'
+        title = f'{dict(FILMS).get(movie, movie)} — Price History'
+
     data = car_sales[car_sales['Model'].isin(models)].copy()
 
     if year is not None:
@@ -281,21 +285,24 @@ def update_price_history(car, year):
     if data.empty:
         return empty_fig('No auction records found for this selection')
 
+    if color_col == 'Car Name':
+        model_to_car = df.drop_duplicates('Model').set_index('Model')['Car Name'].to_dict()
+        data = data.assign(**{'Car Name': data['Model'].map(model_to_car)})
+
     data = data.sort_values(['Sale Date'])
 
     fig = px.line(
         data, x='Sale Date', y='Sale Amount',
-        color='Model', markers=True,
+        color=color_col, markers=True,
         labels={'Sale Date': '', 'Sale Amount': 'Sale Price (USD)', 'Source': 'Auction House'},
         color_discrete_sequence=[ACCENT, BLUE, '#a78bfa', '#34d399', '#fb7185'],
         hover_data=['Source'],
     )
     fig.update_traces(line=dict(width=2), marker=dict(size=7))
+    fig.update_layout(**plot_base(title))
     fig.update_layout(
-        **plot_base(f'{car} — Price History'),
         height=300,
-        yaxis=dict(tickprefix='$', tickformat=',.0f', gridcolor=BORDER),
-        xaxis=dict(gridcolor=BORDER),
+        yaxis=dict(tickprefix='$', tickformat=',.0f'),
         legend_title='',
     )
     return fig
@@ -304,7 +311,7 @@ def update_price_history(car, year):
 # 5. Car value comparison — average sale by car, filtered by movie
 @app.callback(
     Output('value-comparison-chart', 'figure'),
-    Input('movie-select', 'value')
+    Input('selected-movie', 'data')
 )
 def update_value_comparison(movie):
     if movie is None:
@@ -322,7 +329,6 @@ def update_value_comparison(movie):
     subset['short_name'] = subset['Car Name'].apply(
         lambda x: x if len(x) <= 38 else x[:35] + '...'
     )
-    # Orange = Major role, Blue = Minor role
     bar_colors = [ACCENT if str(r) == 'Major' else BLUE for r in subset['Role']]
 
     fig = go.Figure(go.Bar(
@@ -347,21 +353,21 @@ def update_value_comparison(movie):
         customdata=subset[['Car Sales Count']],
     ))
 
-    # Legend annotations (Major/Minor)
     fig.add_annotation(x=1, y=1.05, xref='paper', yref='paper',
         text=f'<span style="color:{ACCENT}">■</span> Major role  '
              f'<span style="color:{BLUE}">■</span> Minor role',
         showarrow=False, font=dict(size=10, color=MUTED), xanchor='right')
 
     chart_height = max(220, len(subset) * 30 + 80)
+    fig.update_layout(**plot_base(title))
     fig.update_layout(
-        **plot_base(title),
         height=chart_height,
-        xaxis=dict(tickprefix='$', tickformat=',.0f', title='Average Sale (USD)', gridcolor=BORDER),
+        xaxis=dict(tickprefix='$', tickformat=',.0f', title='Average Sale (USD)'),
         yaxis=dict(tickfont=dict(size=10), automargin=True),
         showlegend=False,
     )
     return fig
 
 
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
